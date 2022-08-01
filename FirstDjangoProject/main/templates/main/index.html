@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="icon" href="{% static 'img/favicon-32x32.png' %}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+<div id="root">
+    <div id="navbar">
+        <img src="{% static 'img/logo2.png' %}" alt="logo" id="logo">
+        <div id="navbar-buttons">
+            <a href="/">
+                <div>Главная</div>
+                <img src="{% static 'img/home.png' %}" alt="home">
+            </a>
+            <a href="{% url 'about' %}">
+                <div>О компании</div>
+                <img src="{% static 'img/about.png' %}" alt="about">
+            </a>
+            <a href="{% url 'catalog' %}">
+                <div>Каталог товаров</div>
+                <img src="{% static 'img/catalog.png' %}" alt="catalog">
+            </a>
+            <a href="{% url 'reviews' %}">
+                <div>Отзывы</div>
+                <img src="{% static 'img/review.png' %}" alt="reviews">
+            </a>
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <div id="filler"></div>
+    <div id="footer">
+        <div>
+            <span>Продукция</span>
+            <p><a href="">Планетарные миксеры</a></p>
+            <p><a href="">Блендеры стационарные</a></p>
+            <p><a href="">Чайники</a></p>
+            <p><a href="">Тостеры</a></p>
+            <p><a href="">Мультиварки</a></p>
+            <p><a href="">Соковыжималки</a></p>
+            <p><a href="">Насадки к миксерам</a></p>
+            <p><a href="">Блендеры</a></p>
+            <p><a href="">Кухонные комбайны</a></p>
+            <p><a href="">Кофемашины</a></p>
+        </div>
+        <div>
+            <span>О компании</span>
+            <p><a href="">О компании</a></p>
+            <p><a href="">Самовывоз</a></p>
+            <p><a href="">Гарантия и сервис</a></p>
+            <p><a href="">Политика конфиденциальности</a></p>
+            <p><a href="">Пользовательское соглашение</a></p>
+            <p><a href="">Производители</a></p>
+            <p><a href="">Акции</a></p>
+            <p><a href="">Карта сайта</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

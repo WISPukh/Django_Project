@@ -1,0 +1,17 @@
+{% extends 'main/index.html' %}
+{% load static %}
+{% load verbose_names %}
+{% block title %}{{ product_detail.name.title }}{% endblock %}
+{% block content %}
+    <h1>ЗДЕСЬ БУДЕТ ОДИН ТОВАР С ЦЕНОЙ, ДОБАВЛЕНИЕМ В КОРЗИНУ И БЛЭКДЖЭКОМ И... </h1>
+    {% if product_detail %}
+{#      через register.filter#}
+        {% for name, value in product_detail|get_verbose_field_name %}
+            <p>{{ name }}: {{ value.capitalize }}</p>
+        {% endfor %}
+{#            через итератор: #}
+{#        {% for field, value in product_detail %}#}
+{#            <p>{{ field }}: {{ value }}</p>#}
+{#        {% endfor %}#}
+    {% endif %}
+{% endblock %}

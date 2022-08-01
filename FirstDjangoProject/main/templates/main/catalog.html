@@ -1,0 +1,19 @@
+{% extends 'main/index.html' %}
+
+{% load static %}
+
+{% block title %}Каталог товаров{% endblock %}
+
+{% block content %}
+    <h2 class="center">Популярные категории</h2>
+    <div id="items">
+        {% for category in catalog_list %}
+            <a href="{{ category.get_absolute_url }}">
+                <div class="item">
+                    <img src="{% static category.img_url %}" alt="{{ category.name }}">
+                    <h4>{{ category.name.title }}</h4>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+{% endblock %}
