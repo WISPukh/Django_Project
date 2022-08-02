@@ -1,8 +1,8 @@
 import time
 
+from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.urls import reverse
-from django.contrib.contenttypes.models import ContentType
 
 
 class Product(models.Model):
@@ -12,6 +12,7 @@ class Product(models.Model):
     in_stock = models.IntegerField(default=0, verbose_name='В запасе')
     category = models.ManyToManyField('Category')
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE, default=50)
+
     # product_img = models.ImageField()
 
     def __str__(self):
@@ -24,7 +25,7 @@ class Product(models.Model):
     #             yield field.verbose_name, field.value_to_string(self)
 
     def get_absolute_url(self):
-        return reverse('product_detail', kwargs={'name': self.name})
+        return reverse('product_detail', kwargs={'pk': self.pk})
 
 
 class Mixer(Product):
@@ -85,8 +86,9 @@ class Order(models.Model):
 class Category(models.Model):
     name = models.CharField(max_length=50)
     img_url = models.CharField(max_length=50, default=time.time())
-# TODO: ImageField(..., upload_to=...)
-# TODO: media root, media settings
+
+    # TODO: ImageField(..., upload_to=...)
+    # TODO: media root, media settings
 
     def __str__(self):
         return self.name

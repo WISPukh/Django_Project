@@ -13,22 +13,12 @@
     <div id="navbar">
         <img src="{% static 'img/logo2.png' %}" alt="logo" id="logo">
         <div id="navbar-buttons">
-            <a href="/">
-                <div>Главная</div>
-                <img src="{% static 'img/home.png' %}" alt="home">
-            </a>
-            <a href="{% url 'about' %}">
-                <div>О компании</div>
-                <img src="{% static 'img/about.png' %}" alt="about">
-            </a>
-            <a href="{% url 'catalog' %}">
-                <div>Каталог товаров</div>
-                <img src="{% static 'img/catalog.png' %}" alt="catalog">
-            </a>
-            <a href="{% url 'reviews' %}">
-                <div>Отзывы</div>
-                <img src="{% static 'img/review.png' %}" alt="reviews">
-            </a>
+            {% for item in menu %}
+                <a href="{% url item.url %}">
+                    <div>{{ item.title }}</div>
+                    <img src="{% static item.img_url %}" alt={{ item.title }}>
+                </a>
+            {% endfor %}
         </div>
     </div>
 

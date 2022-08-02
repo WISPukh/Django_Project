@@ -1,20 +1,22 @@
-{% extends 'main/index.html' %}
+{% extends 'main/base.html' %}
 {% load static %}
 {% block title %}Товары по категориям{% endblock %}
 {% block content %}
     {% if products_list %}
-        <h1>List of Products</h1>
+        <h1 class="center">List of Products</h1>
+        <div class="items">
         {% for product in products_list %}
-            <div class="items">
-                <h2>{{ product.name }}</h2>
-                <a href="{% url 'product_detail' product.id %}">
-                    <img src="{% static 'img/mixers.png' %}" alt="what do you think it is? {{ product.name }}.">
-                </a>
-                <p>Описание:{{ product.description }}</p>
-                <p>Цена: {{ product.price }}</p>
-                <p>В запасе: {{ product.in_stock }}</p>
-            </div>
+                    <div class="item">
+                        <a href="{{ product.get_absolute_url }}">
+                        <img src="{% static 'img/mixers.png' %}" alt="what do you think it is? {{ product.name }}.">
+                        <h2>{{ product.name.title }}</h2>
+                        </a>
+                        <p>Описание: {{ product.description.capitalize }}</p>
+                        <p>Цена: {{ product.price }}</p>
+                        <p>В запасе: {{ product.in_stock }}</p>
+                    </div>
         {% endfor %}
+         </div>
     {% else %}
         <p>There are no products in the store</p>
     {% endif %}

@@ -1,4 +1,4 @@
-{% extends 'main/index.html' %}
+{% extends 'main/base.html' %}
 
 {% load static %}
 
@@ -6,7 +6,7 @@
 
 {% block content %}
     <h2 class="center">Популярные категории</h2>
-    <div id="items">
+    <div class="items">
         {% for category in catalog_list %}
             <a href="{{ category.get_absolute_url }}">
                 <div class="item">
