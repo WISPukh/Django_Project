@@ -31576,3 +31576,2537 @@ Watching for file changes with StatReloader
 "GET /catalog/mixer/ HTTP/1.1" 200 3725
 "GET /products/1/ HTTP/1.1" 200 3527
 "GET /catalog HTTP/1.1" 200 4123
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3891
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /about HTTP/1.1" 200 5965
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 3683
+"GET /products/1/ HTTP/1.1" 200 3527
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/combine/ HTTP/1.1" 200 2706
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2224
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+"GET /static/admin/css/login.css HTTP/1.1" 200 954
+"GET /static/admin/css/base.css HTTP/1.1" 200 19513
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3367
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11084
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /admin/main/product/ HTTP/1.1" 200 9914
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/main/product/4/change/ HTTP/1.1" 200 13857
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8878
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+"POST /admin/main/product/4/change/ HTTP/1.1" 302 0
+"GET /admin/main/product/ HTTP/1.1" 200 10115
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/main/product/4/change/ HTTP/1.1" 200 13853
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/main/product/4/change/ HTTP/1.1" 200 13853
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/product/4/change/ HTTP/1.1" 302 0
+"GET /admin/main/product/ HTTP/1.1" 200 10115
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/product/ HTTP/1.1" 200 9914
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/product/ HTTP/1.1" 200 9914
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/product/ HTTP/1.1" 200 9914
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/product/4/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+"GET /admin/main/product/4/change/ HTTP/1.1" 200 13881
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/product/4/change/ HTTP/1.1" 302 0
+"GET /admin/main/product/ HTTP/1.1" 200 10115
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3891
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/FirstDjangoProject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/product/3/change/ HTTP/1.1" 200 13916
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3246
+"GET /products/3/ HTTP/1.1" 200 3504
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3201
+"GET /products/4/ HTTP/1.1" 200 3590
+"GET / HTTP/1.1" 200 3891
+"POST /admin/main/product/3/change/ HTTP/1.1" 302 0
+"GET /admin/main/product/ HTTP/1.1" 200 10122
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /products/4/ HTTP/1.1" 200 3590
+"GET / HTTP/1.1" 200 3891
+"GET /products/4/ HTTP/1.1" 200 3590
+"GET / HTTP/1.1" 200 3891
+"GET /products/4/ HTTP/1.1" 200 3590
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3201
+"GET /products/4/ HTTP/1.1" 200 3590
+"GET / HTTP/1.1" 200 3891
+"GET /products/4/ HTTP/1.1" 200 3590
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3246
+"GET /products/3/ HTTP/1.1" 200 3504
+"GET / HTTP/1.1" 200 3891
+"GET /products/3/ HTTP/1.1" 200 3510
+"GET /products/3/ HTTP/1.1" 200 3510
+"GET /products/3/ HTTP/1.1" 200 3510
+"GET /products/3/ HTTP/1.1" 200 3536
+Not Found: /products/3/uploads/uploads/teapot.png
+"GET /products/3/uploads/uploads/teapot.png HTTP/1.1" 404 3618
+"GET /products/3/ HTTP/1.1" 200 3536
+Not Found: /products/3/uploads/uploads/teapot.png
+"GET /products/3/uploads/uploads/teapot.png HTTP/1.1" 404 3618
+"GET /products/3/ HTTP/1.1" 200 3536
+Not Found: /products/3/uploads/uploads/teapot.png
+"GET /products/3/uploads/uploads/teapot.png HTTP/1.1" 404 3618
+"GET /products/3/ HTTP/1.1" 200 3536
+Not Found: /products/3/uploads/uploads/teapot.png
+"GET /products/3/uploads/uploads/teapot.png HTTP/1.1" 404 3618
+"GET /products/3/ HTTP/1.1" 200 3536
+Not Found: /products/3/uploads/uploads/teapot.png
+"GET /products/3/uploads/uploads/teapot.png HTTP/1.1" 404 3618
+"GET /products/3/ HTTP/1.1" 200 3528
+Not Found: /products/3/uploads/teapot.png
+"GET /products/3/uploads/teapot.png HTTP/1.1" 404 3594
+"GET /products/3/ HTTP/1.1" 200 3528
+Not Found: /products/3/uploads/teapot.png
+"GET /products/3/uploads/teapot.png HTTP/1.1" 404 3594
+"GET /products/3/ HTTP/1.1" 200 3519
+"GET /static/ HTTP/1.1" 404 1868
+"GET /products/3/ HTTP/1.1" 200 3511
+"GET /products/3/ HTTP/1.1" 200 3535
+Not Found: /products/3/media/uploads/teapot.png
+"GET /products/3/media/uploads/teapot.png HTTP/1.1" 404 3612
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/FirstDjangoProject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products/3/ HTTP/1.1" 200 3536
+"GET /media/uploads/teapot.png HTTP/1.1" 200 64786
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/FirstDjangoProject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/product/4/change/ HTTP/1.1" 200 14005
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/product/4/change/ HTTP/1.1" 302 0
+"GET /admin/main/product/ HTTP/1.1" 200 10115
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3201
+"GET /products/4/ HTTP/1.1" 200 3550
+"GET /media/uploads/fridge.png HTTP/1.1" 200 29550
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/templatetags/verbose_names.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products/4/ HTTP/1.1" 200 3482
+"GET /media/uploads/fridge.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/combine/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/panel/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3201
+"GET /catalog/fridge/ HTTP/1.1" 200 3204
+"GET /media/uploads/fridge.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 3689
+Not Found: /media/1659515185.3299727
+"GET /media/1659515185.3299727 HTTP/1.1" 404 3708
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3249
+"GET /media/uploads/teapot.png HTTP/1.1" 304 0
+"GET /products/3/ HTTP/1.1" 200 3468
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3204
+"GET /media/uploads/fridge.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3204
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3249
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /admin/main/mixer/ HTTP/1.1" 200 9473
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/mixer/2/change/ HTTP/1.1" 200 15425
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/mixer/2/change/ HTTP/1.1" 302 0
+"GET /admin/main/mixer/ HTTP/1.1" 200 9669
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/mixer/1/change/ HTTP/1.1" 200 15446
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /about HTTP/1.1" 200 5965
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3891
+"GET /about HTTP/1.1" 200 5965
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 3689
+Not Found: /media/1659515185.3299727
+"GET /media/1659515185.3299727 HTTP/1.1" 404 3708
+"GET /media/uploads/mixer2.tif HTTP/1.1" 200 5618
+"POST /admin/main/mixer/1/change/ HTTP/1.1" 302 0
+"GET /admin/main/mixer/ HTTP/1.1" 200 9669
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog/mixer/ HTTP/1.1" 200 3690
+"GET /media/uploads/mixer3.webp HTTP/1.1" 200 7970
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3249
+"GET /media/uploads/teapot.png HTTP/1.1" 304 0
+"GET /admin/main/mixer/add/ HTTP/1.1" 200 14928
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/mixer/add/ HTTP/1.1" 302 0
+"GET /admin/main/mixer/ HTTP/1.1" 200 9876
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 4165
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 200 5354
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /media/uploads/mixer3.webp HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3249
+"GET /admin/main/teapot/ HTTP/1.1" 200 9287
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/teapot/3/change/ HTTP/1.1" 200 14899
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/teapot/3/change/ HTTP/1.1" 302 0
+"GET /admin/main/teapot/ HTTP/1.1" 200 9493
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/teapot/add/ HTTP/1.1" 200 14375
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/teapot/add/ HTTP/1.1" 302 0
+"GET /admin/main/teapot/ HTTP/1.1" 200 9688
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog/teapot/ HTTP/1.1" 200 3746
+"GET /media/uploads/teapot2.png HTTP/1.1" 200 370822
+"GET /media/uploads/teapot_Jed0EtR.png HTTP/1.1" 200 364148
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3746
+"GET /media/uploads/teapot_Jed0EtR.png HTTP/1.1" 304 0
+"GET /media/uploads/teapot2.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 4165
+"GET /media/uploads/mixer3.webp HTTP/1.1" 304 0
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3204
+"GET /media/uploads/fridge.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/combine/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 2706
+"GET /admin/main/category/ HTTP/1.1" 200 10330
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/product/ HTTP/1.1" 200 10327
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/blender/ HTTP/1.1" 200 8142
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/blender/add/ HTTP/1.1" 302 0
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14642
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Internal Server Error: /admin/main/blender/add/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1885, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1797, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1220, in save_model
+    obj.save()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 806, in save
+    self.save_base(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 856, in save_base
+    parent_inserted = self._save_parents(cls, using, update_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 898, in _save_parents
+    updated = self._save_table(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1620, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1547, in as_sql
+    value_rows = [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1548, in <listcomp>
+    [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1549, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1497, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/fields/files.py", line 314, in pre_save
+    if file and not file._committed:
+AttributeError: 'float' object has no attribute '_committed'
+"POST /admin/main/blender/add/ HTTP/1.1" 500 178246
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+Internal Server Error: /admin/main/blender/add/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1885, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1797, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1220, in save_model
+    obj.save()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 806, in save
+    self.save_base(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 856, in save_base
+    parent_inserted = self._save_parents(cls, using, update_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 898, in _save_parents
+    updated = self._save_table(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1620, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1547, in as_sql
+    value_rows = [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1548, in <listcomp>
+    [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1549, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1497, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/fields/files.py", line 314, in pre_save
+    if file and not file._committed:
+AttributeError: 'float' object has no attribute '_committed'
+"POST /admin/main/blender/add/ HTTP/1.1" 500 178232
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+Internal Server Error: /admin/main/blender/add/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1885, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1797, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1220, in save_model
+    obj.save()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 806, in save
+    self.save_base(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 856, in save_base
+    parent_inserted = self._save_parents(cls, using, update_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 898, in _save_parents
+    updated = self._save_table(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1620, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1547, in as_sql
+    value_rows = [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1548, in <listcomp>
+    [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1549, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1497, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/fields/files.py", line 314, in pre_save
+    if file and not file._committed:
+AttributeError: 'float' object has no attribute '_committed'
+"POST /admin/main/blender/add/ HTTP/1.1" 500 178218
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+Internal Server Error: /admin/main/blender/add/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1885, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1797, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1220, in save_model
+    obj.save()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 806, in save
+    self.save_base(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 856, in save_base
+    parent_inserted = self._save_parents(cls, using, update_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 898, in _save_parents
+    updated = self._save_table(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1620, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1547, in as_sql
+    value_rows = [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1548, in <listcomp>
+    [
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1549, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1497, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/fields/files.py", line 314, in pre_save
+    if file and not file._committed:
+AttributeError: 'float' object has no attribute '_committed'
+"POST /admin/main/blender/add/ HTTP/1.1" 500 178196
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/blender/add/ HTTP/1.1" 302 0
+"GET /admin/main/blender/ HTTP/1.1" 200 9699
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/blender/add/ HTTP/1.1" 200 14407
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/blender/add/ HTTP/1.1" 302 0
+"GET /admin/main/blender/ HTTP/1.1" 200 9906
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 4153
+"GET /media/uploads/blender1.webp HTTP/1.1" 200 4098
+"GET /media/uploads/blender2.webp HTTP/1.1" 200 8452
+"GET /media/uploads/blender3.webp HTTP/1.1" 200 6834
+"GET /products/7/ HTTP/1.1" 200 3478
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 4153
+"GET /media/uploads/blender2.webp HTTP/1.1" 304 0
+"GET /media/uploads/blender3.webp HTTP/1.1" 304 0
+"GET /products/8/ HTTP/1.1" 200 3463
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 4165
+"GET /media/uploads/mixer3.webp HTTP/1.1" 304 0
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 304 0
+"GET /products/1/ HTTP/1.1" 200 3574
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/teapot/ HTTP/1.1" 200 3746
+"GET /media/uploads/teapot2.png HTTP/1.1" 304 0
+"GET /media/uploads/teapot_Jed0EtR.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/blender/ HTTP/1.1" 200 4153
+"GET /media/uploads/blender1.webp HTTP/1.1" 304 0
+"GET /media/uploads/blender2.webp HTTP/1.1" 304 0
+"GET /media/uploads/blender3.webp HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3204
+"GET /media/uploads/fridge.png HTTP/1.1" 304 0
+"GET /products/4/ HTTP/1.1" 200 3482
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/combine/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/mixer/ HTTP/1.1" 200 4165
+"GET /media/uploads/mixer3.webp HTTP/1.1" 304 0
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 304 0
+"GET /admin/main/category/ HTTP/1.1" 200 10330
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/ HTTP/1.1" 200 11544
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/main/product/ HTTP/1.1" 200 10948
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/combine/ HTTP/1.1" 200 8142
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/combine/add/ HTTP/1.1" 200 14383
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/combine/add/ HTTP/1.1" 200 14565
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/combine/add/ HTTP/1.1" 302 0
+"GET /admin/main/combine/add/ HTTP/1.1" 200 14619
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/combine/add/ HTTP/1.1" 302 0
+"GET /admin/main/combine/ HTTP/1.1" 200 9704
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/combine/10/change/ HTTP/1.1" 200 14888
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/fridge/ HTTP/1.1" 200 9280
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/fridge/ HTTP/1.1" 200 9280
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/fridge/4/change/ HTTP/1.1" 200 15311
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/fridge/4/change/ HTTP/1.1" 302 0
+"GET /admin/main/fridge/ HTTP/1.1" 200 9479
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/fridge/add/ HTTP/1.1" 200 14846
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/fridge/add/ HTTP/1.1" 302 0
+"GET /admin/main/fridge/ HTTP/1.1" 200 9686
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /media/uploads/fridge2.webp HTTP/1.1" 200 1390
+"GET /media/uploads/fridge1.webp HTTP/1.1" 200 2352
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /media/uploads/fridge1.webp HTTP/1.1" 304 0
+"GET /media/uploads/fridge2.webp HTTP/1.1" 304 0
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+Watching for file changes with StatReloader
+"GET /catalog HTTP/1.1" 200 4123
+"GET /catalog/fridge/ HTTP/1.1" 200 3690
+"GET /media/uploads/fridge1.webp HTTP/1.1" 304 0
+"GET /media/uploads/fridge2.webp HTTP/1.1" 304 0
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /catalog HTTP/1.1" 200 4123
+"GET /admin/main/fridge/ HTTP/1.1" 200 9488
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/ HTTP/1.1" 200 10330
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/5/change/ HTTP/1.1" 200 9733
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/5/change/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10532
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4135
+"GET /static/category_images/fridge.png HTTP/1.1" 404 1938
+"GET /catalog HTTP/1.1" 200 4135
+"GET /static/category_images/fridge.png HTTP/1.1" 404 1938
+"GET /catalog HTTP/1.1" 200 4135
+Not Found: /media/img/teapot.png
+Not Found: /media/img/mixers.png
+"GET /media/img/teapot.png HTTP/1.1" 404 3692
+Not Found: /media/img/blender_main.png
+Not Found: /media/img/combine.png
+"GET /media/img/mixers.png HTTP/1.1" 404 3692
+"GET /media/img/blender_main.png HTTP/1.1" 404 3716
+"GET /media/img/combine.png HTTP/1.1" 404 3696
+"GET /media/category_images/fridge.png HTTP/1.1" 200 29550
+Not Found: /media/img/panel.png
+"GET /media/img/panel.png HTTP/1.1" 404 3688
+"GET /admin/main/category/6/change/ HTTP/1.1" 200 9727
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/6/change/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/4/change/ HTTP/1.1" 200 9739
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/4/change/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10533
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/3/change/ HTTP/1.1" 200 9749
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/3/change/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10533
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/2/change/ HTTP/1.1" 200 9733
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/2/change/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10532
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/1/change/ HTTP/1.1" 200 9729
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/1/change/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4195
+"GET /media/category_images/fridge.png HTTP/1.1" 304 0
+"GET /media/category_images/panel.png HTTP/1.1" 200 19822
+"GET /media/category_images/mixers.png HTTP/1.1" 200 70170
+"GET /media/category_images/blender_main.png HTTP/1.1" 200 29588
+"GET /media/category_images/combine.png HTTP/1.1" 200 46379
+"GET /media/category_images/teapot.png HTTP/1.1" 200 64786
+"GET /about HTTP/1.1" 200 5965
+"GET /reviews HTTP/1.1" 200 4232
+"GET /catalog HTTP/1.1" 200 4195
+"GET /media/category_images/mixers.png HTTP/1.1" 304 0
+"GET /media/category_images/blender_main.png HTTP/1.1" 304 0
+"GET /media/category_images/fridge.png HTTP/1.1" 304 0
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /media/category_images/combine.png HTTP/1.1" 304 0
+"GET /media/category_images/panel.png HTTP/1.1" 304 0
+"GET /admin/users/user/ HTTP/1.1" 200 11544
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?is_staff__exact=1 HTTP/1.1" 200 12046
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?is_staff__exact=0 HTTP/1.1" 200 10175
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admin&is_staff__exact=0 HTTP/1.1" 200 10296
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admin&is_staff__exact=0 HTTP/1.1" 200 10296
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admin HTTP/1.1" 200 11780
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?q=admi HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?is_staff__exact=1&q=admi HTTP/1.1" 200 12244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/ HTTP/1.1" 200 11544
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?is_staff__exact=1 HTTP/1.1" 200 12046
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?is_staff__exact=0 HTTP/1.1" 200 10175
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?email=admin%40admin.god&is_staff__exact=0 HTTP/1.1" 200 10432
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/?is_staff__exact=0 HTTP/1.1" 200 10175
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/? HTTP/1.1" 200 11544
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /media/uploads/teapot2.png HTTP/1.1" 304 0
+"GET /media/uploads/teapot_Jed0EtR.png HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 200 5301
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+Watching for file changes with StatReloader
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog HTTP/1.1" 200 4189
+"GET /media/category_images/mixers.png HTTP/1.1" 304 0
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /media/category_images/blender_main.png HTTP/1.1" 304 0
+"GET /media/category_images/combine.png HTTP/1.1" 304 0
+"GET /media/category_images/fridge.png HTTP/1.1" 304 0
+"GET /media/category_images/panel.png HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /media/uploads/mixer3.webp HTTP/1.1" 304 0
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /media/uploads/blender1.webp HTTP/1.1" 304 0
+"GET /media/uploads/blender3.webp HTTP/1.1" 304 0
+"GET /media/uploads/blender2.webp HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/combine/ HTTP/1.1" 200 3747
+"GET /media/uploads/combine.png HTTP/1.1" 200 46379
+"GET /media/uploads/combine_xslhFQT.png HTTP/1.1" 200 46379
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /media/uploads/fridge1.webp HTTP/1.1" 304 0
+"GET /media/uploads/fridge2.webp HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/panel/ HTTP/1.1" 200 2706
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3891
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3891
+"GET /static/js/slider.js HTTP/1.1" 200 779
+"GET /static/img/logo2.png HTTP/1.1" 200 30818
+"GET /static/css/index.css HTTP/1.1" 200 5293
+"GET /static/img/home.png HTTP/1.1" 200 1569
+"GET /static/img/catalog.png HTTP/1.1" 200 868
+"GET /static/img/about.png HTTP/1.1" 200 255
+"GET /static/img/review.png HTTP/1.1" 200 1115
+"GET /static/img/banner1.jpg HTTP/1.1" 200 99129
+"GET /static/img/banner4.jpg HTTP/1.1" 200 72209
+"GET /static/img/banner2.jpg HTTP/1.1" 200 93305
+"GET /static/img/banner3.jpg HTTP/1.1" 200 127302
+"GET /static/img/footer.jpg HTTP/1.1" 200 373727
+"GET /static/img/favicon-32x32.png HTTP/1.1" 200 1697
+"GET /catalog HTTP/1.1" 200 4189
+"GET /media/category_images/mixers.png HTTP/1.1" 200 70170
+"GET /media/category_images/teapot.png HTTP/1.1" 200 64786
+"GET /media/category_images/panel.png HTTP/1.1" 200 19822
+"GET /media/category_images/blender_main.png HTTP/1.1" 200 29588
+"GET /media/category_images/fridge.png HTTP/1.1" 200 29550
+"GET /media/category_images/combine.png HTTP/1.1" 200 46379
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /media/uploads/teapot2.png HTTP/1.1" 200 370822
+"GET /media/uploads/teapot_Jed0EtR.png HTTP/1.1" 200 364148
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /media/uploads/fridge1.webp HTTP/1.1" 200 2352
+"GET /media/uploads/fridge2.webp HTTP/1.1" 200 1390
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /media/uploads/mixer3.webp HTTP/1.1" 200 7970
+"GET /media/uploads/mixer2.tif HTTP/1.1" 200 5618
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 200 5354
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5338
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5338
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5338
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /media/uploads/blender1.webp HTTP/1.1" 200 4098
+"GET /media/uploads/blender3.webp HTTP/1.1" 200 6834
+"GET /media/uploads/blender2.webp HTTP/1.1" 200 8452
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /static/css/index.css HTTP/1.1" 200 5391
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /products/2/ HTTP/1.1" 200 3551
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /products/4/ HTTP/1.1" 200 3483
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /products/9/ HTTP/1.1" 200 3457
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/combine/ HTTP/1.1" 200 3747
+"GET /media/uploads/combine.png HTTP/1.1" 200 46379
+"GET /media/uploads/combine_xslhFQT.png HTTP/1.1" 200 46379
+"GET /products/10/ HTTP/1.1" 200 3456
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 200 5389
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 200 5387
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 200 5387
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5285
+"GET /about HTTP/1.1" 200 5965
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /static/img/tags.png HTTP/1.1" 200 2913
+"GET /static/img/time.png HTTP/1.1" 200 5215
+"GET /static/img/gears.png HTTP/1.1" 200 1923
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/blender/ HTTP/1.1" 200 4177
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/fridge/ HTTP/1.1" 200 3706
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5283
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5283
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5283
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5283
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 200 5283
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3891
+"GET /static/css/index.css HTTP/1.1" 200 5285
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3891
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog/teapot/ HTTP/1.1" 200 3762
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4189
+"GET /catalog/mixer/ HTTP/1.1" 200 4189
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /catalog/mixer/ HTTP/1.1" 200 4096
+"GET /media/uploads/mixer3.webp HTTP/1.1" 304 0
+"GET /media/uploads/mixer2.tif HTTP/1.1" 304 0
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /media/uploads/another_mixer.webp HTTP/1.1" 304 0
+"GET /catalog/mixer/ HTTP/1.1" 200 4096
+"GET /admin/users/user/? HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/users/user/ HTTP/1.1" 200 2246
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+"GET /static/admin/css/login.css HTTP/1.1" 200 954
+"GET /static/admin/css/base.css HTTP/1.1" 200 19513
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3540
+"POST /admin/login/?next=/admin/users/user/ HTTP/1.1" 302 0
+"GET /admin/users/user/ HTTP/1.1" 200 11544
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/users/user/ HTTP/1.1" 200 11544
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/add/ HTTP/1.1" 200 11495
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8878
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/1/change/ HTTP/1.1" 200 12125
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/profiles/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3891
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2224
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 8202
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /admin/users/user/ HTTP/1.1" 200 11540
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/add/ HTTP/1.1" 200 11491
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /catalog HTTP/1.1" 200 2749
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 7115
+"GET /admin/users/user/ HTTP/1.1" 200 10716
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/add/ HTTP/1.1" 200 10667
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/users/user/add/ HTTP/1.1" 200 10961
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/users/user/add/ HTTP/1.1" 302 0
+"GET /admin/users/user/2/change/ HTTP/1.1" 200 10539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/2/change/ HTTP/1.1" 200 10304
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/users/user/2/change/ HTTP/1.1" 200 10838
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/2/change/ HTTP/1.1" 200 10838
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/users/user/2/change/ HTTP/1.1" 200 10838
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9247
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/2/change/ HTTP/1.1" 200 11893
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/users/user/add/ HTTP/1.1" 200 11201
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9247
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9247
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9807
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9807
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9807
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9807
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/profiles/profile/ HTTP/1.1" 200 9807
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 8387
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/cart/add/ HTTP/1.1" 200 11392
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7178
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/category/ HTTP/1.1" 200 8415
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/category/add/ HTTP/1.1" 200 9582
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/add/ HTTP/1.1" 302 0
+"GET /admin/main/category/add/ HTTP/1.1" 200 9818
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET / HTTP/1.1" 200 3891
+"GET /static/css/index.css HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 2988
+"GET /media/category_images/mixers.png HTTP/1.1" 200 70170
+"POST /admin/main/category/add/ HTTP/1.1" 302 0
+"GET /admin/main/category/add/ HTTP/1.1" 200 9819
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 3230
+"GET /media/category_images/mixers.png HTTP/1.1" 304 0
+"GET /media/category_images/teapot.png HTTP/1.1" 200 64786
+"GET /catalog HTTP/1.1" 200 3230
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 3230
+"GET /catalog HTTP/1.1" 200 3230
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 3230
+"GET /catalog HTTP/1.1" 200 3230
+"GET /catalog HTTP/1.1" 200 3230
+"GET /catalog HTTP/1.1" 200 3230
+"POST /admin/main/category/add/ HTTP/1.1" 302 0
+"GET /admin/main/category/add/ HTTP/1.1" 200 9820
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 3481
+"GET /media/category_images/mixers.png HTTP/1.1" 304 0
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /media/category_images/blender_main.png HTTP/1.1" 200 29588
+"POST /admin/main/category/add/ HTTP/1.1" 302 0
+"GET /admin/main/category/add/ HTTP/1.1" 200 9820
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/add/ HTTP/1.1" 302 0
+"GET /admin/main/category/add/ HTTP/1.1" 200 9819
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/category/add/ HTTP/1.1" 302 0
+"GET /admin/main/category/ HTTP/1.1" 200 10802
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4207
+"GET /media/category_images/mixers.png HTTP/1.1" 304 0
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /media/category_images/blender_main.png HTTP/1.1" 304 0
+"GET /media/category_images/panel.png HTTP/1.1" 200 19822
+"GET /media/category_images/fridge.png HTTP/1.1" 200 29550
+"GET /media/category_images/combine.png HTTP/1.1" 200 46379
+"GET /catalog/Fridges/ HTTP/1.1" 200 2706
+"GET /admin/main/mixer/ HTTP/1.1" 200 8394
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/mixer/add/ HTTP/1.1" 200 15115
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/mixer/add/ HTTP/1.1" 302 0
+"GET /admin/main/mixer/ HTTP/1.1" 200 9729
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/panel/ HTTP/1.1" 200 8394
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/teapot/ HTTP/1.1" 200 8401
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/teapot/add/ HTTP/1.1" 200 14562
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/teapot/add/ HTTP/1.1" 302 0
+"GET /admin/main/teapot/add/ HTTP/1.1" 200 14792
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/teapot/add/ HTTP/1.1" 302 0
+"GET /admin/main/teapot/ HTTP/1.1" 200 9948
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/teapot/2/change/ HTTP/1.1" 200 15071
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+"POST /admin/main/teapot/2/change/ HTTP/1.1" 302 0
+"GET /admin/main/teapot/ HTTP/1.1" 200 9949
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /catalog HTTP/1.1" 200 4207
+"GET /media/category_images/teapot.png HTTP/1.1" 304 0
+"GET /media/category_images/blender_main.png HTTP/1.1" 304 0
+"GET /media/category_images/fridge.png HTTP/1.1" 304 0
+"GET /media/category_images/mixers.png HTTP/1.1" 304 0
+"GET /media/category_images/panel.png HTTP/1.1" 304 0
+"GET /media/category_images/combine.png HTTP/1.1" 304 0
+"GET /catalog HTTP/1.1" 200 4207
+"GET /catalog/Teapots/ HTTP/1.1" 200 3687
+"GET /media/uploads/teapot_LjyDhS8.png HTTP/1.1" 200 364148
+"GET /media/uploads/teapot2_K0f1AhY.png HTTP/1.1" 200 370822
+"GET /products/2/ HTTP/1.1" 200 3459
+"GET /catalog HTTP/1.1" 200 4207
+"GET /catalog/Mixers/ HTTP/1.1" 200 3229
+"GET /media/uploads/mixer2_8G2hCoi.tif HTTP/1.1" 200 5618
+"GET /products/1/ HTTP/1.1" 200 3579
+"GET /catalog HTTP/1.1" 200 4207
+"GET /admin/main/cart/ HTTP/1.1" 200 8387
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/add/ HTTP/1.1" 200 11504
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/cart/add/ HTTP/1.1" 302 0
+"GET /admin/main/cart/ HTTP/1.1" 200 9735
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/1/change/ HTTP/1.1" 200 11762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/order/ HTTP/1.1" 200 8394
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % self.customer_id
+TypeError: %d format: a number is required, not User
+"GET /admin/main/cart/ HTTP/1.1" 500 446657
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: %d format: a number is required, not User
+"GET /admin/main/cart/ HTTP/1.1" 500 446804
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+Internal Server Error: /admin/main/cart/
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 672, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/db/models/options.py", line 674, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Cart has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/base.py", line 45, in render
+    return super().render(context)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/template/library.py", line 260, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/templatetags/admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/oleg/.local/lib/python3.8/site-packages/django/contrib/admin/utils.py", line 284, in lookup_field
+    value = attr()
+  File "/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py", line 73, in __str__
+    return 'Order of Customer %d' % int(self.customer_id)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'User'
+"GET /admin/main/cart/ HTTP/1.1" 500 447389
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/cart/ HTTP/1.1" 200 9539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/cart/ HTTP/1.1" 200 9538
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9538
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/cart/ HTTP/1.1" 200 9642
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9642
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9642
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/cart/ HTTP/1.1" 200 9542
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9542
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/1/change/ HTTP/1.1" 200 11786
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9542
+"GET /admin/main/cart/add/ HTTP/1.1" 200 11504
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/main/cart/add/ HTTP/1.1" 200 11666
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Watching for file changes with StatReloader
+"POST /admin/main/cart/add/ HTTP/1.1" 302 0
+"GET /admin/main/cart/ HTTP/1.1" 200 9971
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/2/change/ HTTP/1.1" 200 11786
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/1/change/ HTTP/1.1" 200 11786
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/2/change/ HTTP/1.1" 200 11786
+"GET /admin/main/cart/ HTTP/1.1" 200 9762
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/home/oleg/PycharmProjects/Django_Project/FirstDjangoProject/main/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/main/cart/ HTTP/1.1" 200 9790
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/main/cart/ HTTP/1.1" 200 9790
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343

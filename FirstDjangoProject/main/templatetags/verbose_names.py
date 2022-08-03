@@ -8,7 +8,8 @@ def get_verbose_field_name(instance):
     exclude_field = (
         'content_type',
         'product_ptr',
-        'id'
+        'id',
+        'img'
     )
     for name in instance._meta.fields:
         if name.name not in exclude_field:

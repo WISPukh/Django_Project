@@ -3,6 +3,9 @@ import time
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.urls import reverse
+from django.utils.translation import gettext_lazy as _
+
+from users.models import User
 
 
 class Product(models.Model):
@@ -11,9 +14,8 @@ class Product(models.Model):
     price = models.IntegerField(default=0, verbose_name='Цена')
     in_stock = models.IntegerField(default=0, verbose_name='В запасе')
     category = models.ManyToManyField('Category')
+    img = models.ImageField(upload_to=f'uploads/', default=time.time())
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE, default=50)
-
-    # product_img = models.ImageField()
 
     def __str__(self):
         return self.name
@@ -62,33 +64,32 @@ class Panel(Product):
     length = models.IntegerField(default=60, verbose_name='Длина')
 
 
-class Customer(models.Model):
-    first_name = models.CharField(max_length=50)
-    password = models.CharField(max_length=25)
-    email = models.EmailField(max_length=50)
+class Cart(models.Model):
+    customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
+    quantity = models.IntegerField(default=0)  # TODO метод для изменения количества товаров update_or_create()
 
     def __str__(self):
-        return self.email
-
-
-class Cart(models.Model):
-    customer_id = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
-    quantity = models.IntegerField(default=0)
+        return f'Order of Customer {self.customer_id.email}'
 
 
 class Order(models.Model):
-    customer_id = models.ForeignKey(Customer, on_delete=models.CASCADE)
+    class OrderStatus(models.TextChoices):
+        # IN_CART = 'NULL', _('In Cart')
+        CREATED = 'CR', _('Created')
+        PAID = 'PAID', _('Paid')
+        IS_DELIVERING = 'IS_DEL', _('Is Delivering')
+        DELIVERED = 'DEL', _('Delivered')
+
+    customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
     total_price = models.IntegerField(default=0)
     total_quantity = models.IntegerField(default=0)
+    status = models.CharField(max_length=6, choices=OrderStatus.choices, default=OrderStatus.CREATED)
 
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
-    img_url = models.CharField(max_length=50, default=time.time())
-
-    # TODO: ImageField(..., upload_to=...)
-    # TODO: media root, media settings
+    img_url = models.ImageField(max_length=50, default=time.time(), upload_to='category_images/')
 
     def __str__(self):
         return self.name

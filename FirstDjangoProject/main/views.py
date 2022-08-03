@@ -1,6 +1,6 @@
+from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 from django.views import generic
-from django.shortcuts import get_object_or_404
 
 from .models import *
 
@@ -58,3 +58,4 @@ class ProductDetailView(DataMixin, generic.DetailView):
         # print(ContentType.model_class(current_item.content_type))
         content_type = ContentType.model_class(current_item.content_type)
         return content_type.objects.all()
+all
