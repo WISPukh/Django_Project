@@ -58,4 +58,3 @@ class ProductDetailView(DataMixin, generic.DetailView):
         # print(ContentType.model_class(current_item.content_type))
         content_type = ContentType.model_class(current_item.content_type)
         return content_type.objects.all()
-all

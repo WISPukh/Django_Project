@@ -1,0 +1,6 @@
+/venv/
+/.env
+/FirstDjangoProject/media/
+.idea
+!/debug.log
+/debug.log
