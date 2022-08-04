@@ -5,18 +5,18 @@
     {% if products_list %}
         <h1 class="center">List of Products</h1>
         <div class="items">
-        {% for product in products_list %}
-                    <div class="item">
-                        <a href="{{ product.get_absolute_url }}">
-                        <img src="{% static 'img/mixers.png' %}" alt="what do you think it is? {{ product.name }}.">
+            {% for product in products_list %}
+                <div class="item">
+                    <a href="{{ product.get_absolute_url }}">
+                        <img src="{{ MEDIA_URL }}{{ product.img }}" alt="what do you think it is? {{ product.name }}.">
                         <h2>{{ product.name.title }}</h2>
-                        </a>
-                        <p>Описание: {{ product.description.capitalize }}</p>
-                        <p>Цена: {{ product.price }}</p>
-                        <p>В запасе: {{ product.in_stock }}</p>
-                    </div>
-        {% endfor %}
-         </div>
+                    </a>
+                    <p>Описание: {{ product.description.capitalize }}</p>
+                    <p>Цена: {{ product.price }}</p>
+                    <p>В запасе: {{ product.in_stock }}</p>
+                </div>
+            {% endfor %}
+        </div>
     {% else %}
         <p>There are no products in the store</p>
     {% endif %}

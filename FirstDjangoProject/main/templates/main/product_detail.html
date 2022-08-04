@@ -7,7 +7,7 @@
     <div class="items">
         <div class="item">
             {% if product_detail %}
-                {# {% static product_detail.img_url %} #}
+                <img src="{{ MEDIA_URL }}{{ product_detail.img }}" alt="">
                 {# через register.filter #}
                 {% for name, value in product_detail|get_verbose_field_name %}
                     <p>{{ name.capitalize }}: {{ value.capitalize }}</p>
