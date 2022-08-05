@@ -1,6 +1,10 @@
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 from django.views import generic
+from django.urls import reverse_lazy
+from django.contrib.auth import views as auth_views
+
+from .forms import *
 
 from .models import *
 
@@ -9,7 +13,6 @@ menu = [
     {'title': 'О компании', 'url': 'about', 'img_url': 'img/about.png'},
     {'title': 'Каталог товаров', 'url': 'catalog', 'img_url': 'img/catalog.png'},
     {'title': 'Отзывы', 'url': 'reviews', 'img_url': 'img/review.png'},
-
 ]
 
 
@@ -54,7 +57,33 @@ class ProductDetailView(DataMixin, generic.DetailView):
 
     def get_queryset(self):
         current_item = get_object_or_404(Product, pk=self.kwargs.get('pk'))
+        print(current_item)
         # current_item = Product.objects.get(pk=self.kwargs.get('pk'))
         # print(ContentType.model_class(current_item.content_type))
         content_type = ContentType.model_class(current_item.content_type)
         return content_type.objects.all()
+
+
+class UserRegister(DataMixin, generic.CreateView):
+    template_name = 'main/registration_form.html'
+    form_class = RegisterForm
+
+    def get_success_url(self):
+        return reverse_lazy('login')
+
+
+class UserLogIn(DataMixin, auth_views.LoginView):
+    template_name = 'main/login_form.html'
+    form_class = LogInForm
+
+    def get_success_url(self):
+        return reverse_lazy('catalog')
+
+
+class UserLogOut(DataMixin, auth_views.LogoutView):
+    template_name = 'main/home.html'
+
+
+class UserChangeProfileView(DataMixin, generic.FormView):
+    template_name = 'main/user_profile.html'
+    form_class = UserChangeProfile

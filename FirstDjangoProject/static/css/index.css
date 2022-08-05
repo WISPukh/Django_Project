@@ -60,10 +60,14 @@ body {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 10px;
     box-sizing: border-box;
     background: #c5123a;
+}
+.account-icons{
+    font-size: 15pt;
 }
 
 #navbar #navbar-buttons {
@@ -78,7 +82,7 @@ body {
     width: 100%;
 }
 
-#navbar img {
+#logo {
     width: 120px;
     height: 60px;
 }
@@ -179,6 +183,8 @@ span {
     }
 
     #navbar a:visited, #navbar a:link {
+        text-decoration: none;
+        color: black;
         padding: 15px;
     }
 
