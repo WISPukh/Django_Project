@@ -176,3 +176,16 @@ LOGGING = {
         },
     },
 }
+
+# Email sender
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+DEFAULT_FROM_EMAIL = 'djangoemailsender@yandex.ru'
+
+EMAIL_HOST = 'smtp.yandex.ru'
+EMAIL_HOST_USER = 'djangoemailsender@yandex.ru'
+EMAIL_HOST_PASSWORD = 'JustFinn1337'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True

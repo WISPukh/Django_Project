@@ -11,11 +11,17 @@ urlpatterns = [
     path('catalog', views.CatalogView.as_view(), name='catalog'),
     path('catalog/<str:category_name>/', views.ProductByCategoryView.as_view(), name='products_by_category'),
     path('products/<int:pk>/', views.ProductDetailView.as_view(), name='product_detail'),
+
     path('registration/', views.UserRegister.as_view(), name='registration'),
     path('login/', views.UserLogIn.as_view(), name='login'),
     path('logout/', views.UserLogOut.as_view(), name='logout'),
     path('profile/<int:pk>/', views.ProfileView.as_view(), name='profile'),
     path('profile/<int:pk>/change/', views.UserChangeProfileView.as_view(), name='change_profile'),
+
+    path('password-reset/', views.MyPasswordResetView.as_view(), name='password_reset'),
+    path('password-reset/done/', views.MyPasswordResetDone.as_view(), name='password_reset_done'),
+    path('reset/<uidb64>/<token>/', views.MyPasswordResetConfirmView.as_view(), name='password_reset_confirm'),
+    path('reset/done/', views.MyPasswordResetCompleteView.as_view(), name='password_reset_complete'),
 
 ]
 urlpatterns += static(settings.STATIC_URL)
