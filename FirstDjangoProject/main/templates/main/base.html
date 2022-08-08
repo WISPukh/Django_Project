@@ -25,18 +25,18 @@
         </div>
         <div class="account-icons">
             {% if user.is_authenticated %}
-                <a href="{% url 'profile' %}">
+                <a href="{% url 'profile' user.id %}">
                     <i class="fa fa-user account-icons" aria-hidden="true"></i>
                 </a>
-
                 <a href="{% url 'logout' %}">
                     <i class="fa fa-sign-out account-icons" aria-hidden="true"></i>
                 </a>
+
             {% else %}
+
                 <a href="{% url 'login' %}">
                     <i class="fa fa-sign-in account-icons" aria-hidden="true"></i>
                 </a>
-
                 <a href="{% url 'registration' %}">
                     <i class="fa fa-user-plus account-icons" aria-hidden="true"></i>
                 </a>

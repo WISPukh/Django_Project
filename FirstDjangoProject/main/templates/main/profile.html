@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+{% block title %}{% endblock %}
+{% load profile_verbose_names %}
+{% block content %}
+    {% csrf_token %}
+    <div class="items">
+        <div class="item">
+            {% for field, value in profile_detail|get_verbose_profile_name %}
+                <p>{{ field }}: {{ value }}</p>
+            {% endfor %}
+            <a href="{% url 'change_profile' user.id %}"><button>Изменить Профиль</button></a>
+        </div>
+    </div>
+{% endblock %}

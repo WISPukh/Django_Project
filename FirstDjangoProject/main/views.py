@@ -1,4 +1,4 @@
-from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404, redirect
 from django.shortcuts import render
 from django.views import generic
 from django.urls import reverse_lazy
@@ -57,7 +57,6 @@ class ProductDetailView(DataMixin, generic.DetailView):
 
     def get_queryset(self):
         current_item = get_object_or_404(Product, pk=self.kwargs.get('pk'))
-        print(current_item)
         # current_item = Product.objects.get(pk=self.kwargs.get('pk'))
         # print(ContentType.model_class(current_item.content_type))
         content_type = ContentType.model_class(current_item.content_type)
@@ -84,6 +83,25 @@ class UserLogOut(DataMixin, auth_views.LogoutView):
     template_name = 'main/home.html'
 
 
-class UserChangeProfileView(DataMixin, generic.FormView):
-    template_name = 'main/user_profile.html'
-    form_class = UserChangeProfile
+class ProfileView(DataMixin, generic.DetailView):
+    context_object_name = 'profile_detail'
+    template_name = 'main/profile.html'
+    model = Profile
+
+    def get_queryset(self):
+        return Profile.objects.filter(pk=self.kwargs.get('pk'))
+
+
+class UserChangeProfileView(DataMixin, generic.UpdateView):
+    model = Profile
+    fields = [
+        'bio',
+        'birthday',
+        'phone',
+        'age',
+        'region'
+    ]
+    template_name = 'main/change_profile.html'
+
+    def get_success_url(self):
+        return reverse('profile', kwargs={'pk': self.object.pk})

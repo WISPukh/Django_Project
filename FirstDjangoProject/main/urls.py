@@ -14,7 +14,8 @@ urlpatterns = [
     path('registration/', views.UserRegister.as_view(), name='registration'),
     path('login/', views.UserLogIn.as_view(), name='login'),
     path('logout/', views.UserLogOut.as_view(), name='logout'),
-    path('account/profile/', views.UserChangeProfileView.as_view(), name='profile')
+    path('profile/<int:pk>/', views.ProfileView.as_view(), name='profile'),
+    path('profile/<int:pk>/change/', views.UserChangeProfileView.as_view(), name='change_profile'),
 
 ]
 urlpatterns += static(settings.STATIC_URL)

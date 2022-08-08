@@ -14,9 +14,3 @@ class LogInForm(AuthenticationForm):
     class Meta:
         model = User
         fields = ['username', 'password']
-
-
-class UserChangeProfile(UserChangeForm):
-    class Meta:
-        model = Profile
-        fields = '__all__'
