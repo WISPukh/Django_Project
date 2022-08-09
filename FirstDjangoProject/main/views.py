@@ -1,13 +1,11 @@
+from django.contrib.auth import views as auth_views
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
-from django.views import generic
 from django.urls import reverse_lazy
-from django.contrib.auth import views as auth_views
+from django.views import generic
 
 from profiles.models import Profile
-
 from .forms import *
-
 from .models import *
 
 menu = [
@@ -111,22 +109,7 @@ class UserChangeProfileView(DataMixin, generic.UpdateView):
 
     # def get_queryset(self):
     #     pk = self.kwargs.get('pk')
-    #     print(pk)
-    #     obj = self.model.objects.filter(user_id=pk)
-    #     return obj
-    # def get_object(self, queryset=None):
-
-    #     return obj
-
-
-# class MyPasswordChangeView(DataMixin, auth_views.PasswordChangeView):
-#     template_name = 'main/password-reset.html'
-#     # form_class = PasswordChange
-#     # success_url = reverse_lazy('login')
-
-
-# class CustomPasswordResetView(DataMixin, auth_views.PasswordResetView):
-#     template_name = 'main/password_reset.html'
+    #     return  self.model.objects.filter(user_id=pk)
 
 
 class MyPasswordResetView(DataMixin, auth_views.PasswordResetView):
