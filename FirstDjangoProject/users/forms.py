@@ -18,10 +18,10 @@ class CustomUserChangeForm(UserChangeForm):
 class RegisterForm(UserCreationForm):
     class Meta:
         model = User
-        fields = ["email", "password1", "password2"]
+        fields = ("email", "password1", "password2")
 
 
 class LogInForm(AuthenticationForm):
     class Meta:
         model = User
-        fields = ['username', 'password']
+        fields = ('username', 'password')

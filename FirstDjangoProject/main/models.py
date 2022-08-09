@@ -20,12 +20,6 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-    # def __iter__(self):
-    #     exclude_field = ('content_type', 'product_ptr', 'id')
-    #     for field in self._meta.fields:
-    #         if field.name not in exclude_field:
-    #             yield field.verbose_name, field.value_to_string(self)
-
     def get_absolute_url(self):
         return reverse('product_detail', kwargs={'pk': self.pk})
 

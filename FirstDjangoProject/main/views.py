@@ -53,7 +53,5 @@ class ProductDetailView(DataMixin, generic.DetailView):
 
     def get_queryset(self):
         current_item = get_object_or_404(Product, pk=self.kwargs.get('pk'))
-        # current_item = Product.objects.get(pk=self.kwargs.get('pk'))
-        # print(ContentType.model_class(current_item.content_type))
         content_type = ContentType.model_class(current_item.content_type)
         return content_type.objects.all()

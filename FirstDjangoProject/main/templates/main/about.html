@@ -4,48 +4,51 @@
 {% block title %}О компании{% endblock %}
 
 {% block content %}
-<div id="about">
-    <div>
-        <h1 class="center">О компании и магазине</h1>
-        <main>
-            <div id="about-center">
-                <div class="about-items">
-                    <img src="{% static 'img/time.png' %}" alt="time" style="height: 72px; width: 72px;">
-                    <p>Наши миксеры работают по <span>30-40</span> лет</p>
+    <div id="about">
+        <div>
+            <h1 class="center">О компании и магазине</h1>
+            <main>
+                <div id="about-center">
+                    <div class="about-items">
+                        <img src="{% static 'img/time.png' %}" alt="time" style="height: 72px; width: 72px;">
+                        <p>Наши миксеры работают по <span>30-40</span> лет</p>
+                    </div>
+                    <div class="about-items">
+                        <img src="{% static 'img/tags.png' %}" alt="tags">
+                        <p><span>Широчайшая</span> цветовая палитра</p>
+                    </div>
+                    <div class="about-items">
+                        <img src="{% static 'img/gears.png' %}" alt="gears">
+                        <p><span>Экономичный</span> энергосберегающий двигатель</p>
+                    </div>
                 </div>
-                <div class="about-items">
-                    <img src="{% static 'img/tags.png' %}" alt="tags">
-                    <p><span>Широчайшая</span> цветовая палитра</p>
-                </div>
-                <div class="about-items">
-                    <img src="{% static 'img/gears.png' %}" alt="gears">
-                    <p><span>Экономичный</span> энергосберегающий двигатель</p>
-                </div>
-            </div>
-            <p>Официальный магазин KitchenAid – это фантастический выбор незаменимых помощников для создания вкуснейших
-                шедевров на кухне. Вся кухонная техника в каталоге соответствует премиум-сегменту, что подтверждает
-                высокое качество материалов, надежность сборки и проверенный функционал.</p>
-            <p>В широком ассортименте моделей представлены кухонные машины, заменяющие сразу несколько мощнейших
-                устройств - планетарные миксеры, блендеры, мясорубки, измельчители и даже соковыжималки, чайники нового
-                поколения, позволяющие довести воду до оптимальной температуры для идеального раскрытия вкусовых качеств
-                любимого напитка; Кофемашины и тостеры для легкого, быстрого и полезного завтрака.</p>
-            <p><span>Заказывайте бытовую технику в нашем интернет-магазине</span></p>
-        </main>
+                <p>Официальный магазин KitchenAid – это фантастический выбор незаменимых помощников для создания
+                    вкуснейших
+                    шедевров на кухне. Вся кухонная техника в каталоге соответствует премиум-сегменту, что подтверждает
+                    высокое качество материалов, надежность сборки и проверенный функционал.</p>
+                <p>В широком ассортименте моделей представлены кухонные машины, заменяющие сразу несколько мощнейших
+                    устройств - планетарные миксеры, блендеры, мясорубки, измельчители и даже соковыжималки, чайники
+                    нового
+                    поколения, позволяющие довести воду до оптимальной температуры для идеального раскрытия вкусовых
+                    качеств
+                    любимого напитка; Кофемашины и тостеры для легкого, быстрого и полезного завтрака.</p>
+                <p><span>Заказывайте бытовую технику в нашем интернет-магазине</span></p>
+            </main>
+        </div>
+        <form id="feedback_form" method="post" action="">
+            <p class="center"><b>Обратная</b> связь</p>
+            <p class="center">Если у вас есть вопросы пишите</p>
+            <label>
+                <input type="text" name="name" placeholder="Ваше имя" required>
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="Ваш email" required>
+            </label>
+            <label>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+            </label>
+            <p>Нажимая кнопку отправить, вы соглашаетесь с <a href="">политикой хранения персональных данных</a></p>
+            <input type="submit" name="submit" class="submit" value="ОТПРАВИТЬ">
+        </form>
     </div>
-    <form id="feedback_form" method="post" action="">
-        <p class="center"><b>Обратная</b> связь</p>
-        <p class="center">Если у вас есть вопросы пишите</p>
-        <label>
-            <input type="text" name="name" placeholder="Ваше имя" required>
-        </label>
-        <label>
-            <input type="email" name="email" placeholder="Ваш email" required>
-        </label>
-        <label>
-            <textarea placeholder="Ваше сообщение" required></textarea>
-        </label>
-        <p>Нажимая кнопку отправить, вы соглашаетесь с <a href="">политикой хранения персональных данных</a></p>
-        <input type="submit" name="submit" class="submit" value="ОТПРАВИТЬ">
-    </form>
-</div>
 {% endblock %}

@@ -2,12 +2,12 @@ from django.contrib.auth import views as auth_views
 from django.urls import reverse_lazy
 from django.views import generic
 
-from .forms import RegisterForm, LogInForm
 from main.views import DataMixin
 from profiles.models import Profile
+from .forms import RegisterForm, LogInForm
 
 
-class UserRegister(DataMixin, generic.CreateView):
+class UserRegisterView(DataMixin, generic.CreateView):
     template_name = 'users/registration_form.html'
     form_class = RegisterForm
 
@@ -15,7 +15,7 @@ class UserRegister(DataMixin, generic.CreateView):
         return reverse_lazy('login')
 
 
-class UserLogIn(DataMixin, auth_views.LoginView):
+class UserLogInView(DataMixin, auth_views.LoginView):
     template_name = 'users/login_form.html'
     form_class = LogInForm
 
@@ -23,7 +23,7 @@ class UserLogIn(DataMixin, auth_views.LoginView):
         return reverse_lazy('catalog')
 
 
-class UserLogOut(DataMixin, auth_views.LogoutView):
+class UserLogOutView(DataMixin, auth_views.LogoutView):
     template_name = 'main/home.html'
 
 
@@ -33,7 +33,6 @@ class ProfileView(DataMixin, generic.DetailView):
     model = Profile
 
     def get_queryset(self):
-        # TODO: вывод для несовпадающих profile_id и user_id поломан. для остальных норм
         return self.model.objects.filter(user=self.kwargs.get('pk'))
 
 
@@ -57,11 +56,10 @@ class UserChangeProfileView(DataMixin, generic.UpdateView):
 
 
 class PasswordResetView(DataMixin, auth_views.PasswordResetView):
-    # email_template_name = 'password_reset_email_my.html'
     template_name = 'users/password_reset.html'
 
 
-class PasswordResetDone(DataMixin, auth_views.PasswordResetDoneView):
+class PasswordResetDoneView(DataMixin, auth_views.PasswordResetDoneView):
     template_name = 'users/password_reset_done.html'
 
 
