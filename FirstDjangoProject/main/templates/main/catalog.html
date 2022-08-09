@@ -15,5 +15,10 @@
                 </div>
             </a>
         {% endfor %}
+    {% if user.is_authenticated %}
+        <p>Hello {{ user.email }}</p>
+    {% else %}
+        <p>Welcome, new user. Please log in.</p>
+    {% endif %} 
     </div>
 {% endblock %}

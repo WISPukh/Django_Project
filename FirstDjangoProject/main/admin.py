@@ -18,4 +18,3 @@ admin.site.register(Teapot)
 admin.site.register(Panel)
 
 admin.site.register(Category)
-# custom query set for foreign key

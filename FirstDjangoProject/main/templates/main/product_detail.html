@@ -8,14 +8,9 @@
         <div class="item">
             {% if product_detail %}
                 <img src="{{ MEDIA_URL }}{{ product_detail.img }}" alt="">
-                {# через register.filter #}
                 {% for name, value in product_detail|get_verbose_field_name %}
                     <p>{{ name.capitalize }}: {{ value.capitalize }}</p>
                 {% endfor %}
-                {# через итератор: #}
-                {# {% for field, value in product_detail %} #}
-                {#      <p>{{ field }}: {{ value }}</p> #}
-                {# {% endfor %}#}
             {% endif %}
         </div>
     </div>

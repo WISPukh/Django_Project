@@ -2,45 +2,45 @@
 
 {% load static %}
 
-{% block title%}Отзывы{% endblock %}
+{% block title %}Отзывы{% endblock %}
 
 {% block content %}
-<h2 class="center">Отзывы покупателей</h2>
-<div id="reviews" class="full-width">
-    <div class="review">
-        <div class="avatar">
-            <img src="{% static 'img/avatar.png' %}" alt="avatar">
-            <span>Вася Пупкин</span>
+    <h2 class="center">Отзывы покупателей</h2>
+    <div id="reviews" class="full-width">
+        <div class="review">
+            <div class="avatar">
+                <img src="{% static 'img/avatar.png' %}" alt="avatar">
+                <span>Вася Пупкин</span>
+            </div>
+            <p>Прекрасный сайт мне!! Покупаю технику здесь каждый год</p>
         </div>
-        <p>Прекрасный сайт мне!! Покупаю технику здесь каждый год</p>
-    </div>
-    <div class="review">
-        <div class="avatar">
-            <img src="{% static 'img/avatar.png' %}" alt="avatar">
-            <span>Сергей Дегтярев</span>
+        <div class="review">
+            <div class="avatar">
+                <img src="{% static 'img/avatar.png' %}" alt="avatar">
+                <span>Сергей Дегтярев</span>
+            </div>
+            <p>Классная техника, да и разработчик нормальный</p>
         </div>
-        <p>Классная техника, да и разработчик нормальный</p>
-    </div>
-    <div class="review">
-        <div class="avatar">
-            <img src=".{% static 'img/avatar.png' %}" alt="avatar">
-            <span>Николай Савченко</span>
+        <div class="review">
+            <div class="avatar">
+                <img src=".{% static 'img/avatar.png' %}" alt="avatar">
+                <span>Николай Савченко</span>
+            </div>
+            <p>Техника на 10 из 10</p>
         </div>
-        <p>Техника на 10 из 10</p>
-    </div>
-    <div class="review">
-        <div class="avatar">
-            <img src="{% static 'img/avatar.png' %}" alt="avatar">
-            <span>Федор Простоквашин</span>
+        <div class="review">
+            <div class="avatar">
+                <img src="{% static 'img/avatar.png' %}" alt="avatar">
+                <span>Федор Простоквашин</span>
+            </div>
+            <p>В деревне вашей техники очень не хватает, жду обновления доставки</p>
         </div>
-        <p>В деревне вашей техники очень не хватает, жду обновления доставки</p>
-    </div>
-    <div class="review">
-        <div class="avatar">
-            <img src="{% static 'img/avatar.png' %}" alt="avatar">
-            <span>Трейсер Овервотч</span>
+        <div class="review">
+            <div class="avatar">
+                <img src="{% static 'img/avatar.png' %}" alt="avatar">
+                <span>Трейсер Овервотч</span>
+            </div>
+            <p>Даже мой синхронизатор не работает так складно, как эта техника</p>
         </div>
-        <p>Даже мой синхронизатор не работает так складно, как эта техника</p>
     </div>
-</div>
 {% endblock %}
