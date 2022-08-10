@@ -1,10 +1,8 @@
-from django.shortcuts import get_object_or_404, redirect
+from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 from django.views import generic
-from django.views.decorators.http import require_POST
 
-from .cart import Cart as RealCart
-from .forms import CartAddProductForm
+from cart.forms import CartAddProductForm
 from .models import *
 
 menu = [
@@ -64,29 +62,3 @@ class ProductDetailView(DataMixin, generic.DetailView):
         cart_product_form = CartAddProductForm()
         context['cart_form'] = cart_product_form
         return context
-
-
-@require_POST
-def cart_add(request, pk):
-    cart = RealCart(request)
-    product = get_object_or_404(Product, pk=pk)
-    form = CartAddProductForm(request.POST)
-    print(product.in_stock)
-    if form.is_valid():
-        cd = form.cleaned_data
-        cart.add_to_cart(product=product,
-                         quantity=cd['quantity'],
-                         update_quantity=cd['update'])
-    return redirect('product_detail', pk)
-
-
-def cart_remove(request, pk):
-    cart = RealCart(request)
-    product = get_object_or_404(Product, id=pk)
-    cart.remove(product)
-    return redirect('cart_detail')
-
-
-def cart_detail(request):
-    cart = RealCart(request)
-    return render(request, 'main/cart_detail.html', context={'cart': cart, 'menu': menu})

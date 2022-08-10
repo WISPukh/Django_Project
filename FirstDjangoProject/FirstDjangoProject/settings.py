@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'users',
     'main',
     'profiles',
+    'cart',
 
 ]
 

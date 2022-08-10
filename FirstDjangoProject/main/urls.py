@@ -12,10 +12,6 @@ urlpatterns = [
     path('catalog/<str:category_name>/', views.ProductByCategoryView.as_view(), name='products_by_category'),
     path('products/<int:pk>/', views.ProductDetailView.as_view(), name='product_detail'),
 
-    path('cart/', views.cart_detail, name='cart_detail'),
-    path('cart/add/<int:pk>', views.cart_add, name='cart_add'),
-    path('cart/remove/<int:pk>', views.cart_remove, name='cart_remove'),
-
 ]
 urlpatterns += static(settings.STATIC_URL)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
