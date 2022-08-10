@@ -2,12 +2,11 @@ from django.contrib.auth import views as auth_views
 from django.urls import reverse_lazy
 from django.views import generic
 
-from main.views import DataMixin
 from profiles.models import Profile
 from .forms import RegisterForm, LogInForm
 
 
-class UserRegisterView(DataMixin, generic.CreateView):
+class UserRegisterView(generic.CreateView):
     template_name = 'users/registration_form.html'
     form_class = RegisterForm
 
@@ -15,7 +14,7 @@ class UserRegisterView(DataMixin, generic.CreateView):
         return reverse_lazy('login')
 
 
-class UserLogInView(DataMixin, auth_views.LoginView):
+class UserLogInView(auth_views.LoginView):
     template_name = 'users/login_form.html'
     form_class = LogInForm
 
@@ -23,11 +22,11 @@ class UserLogInView(DataMixin, auth_views.LoginView):
         return reverse_lazy('catalog')
 
 
-class UserLogOutView(DataMixin, auth_views.LogoutView):
+class UserLogOutView(auth_views.LogoutView):
     template_name = 'main/home.html'
 
 
-class ProfileView(DataMixin, generic.DetailView):
+class ProfileView(generic.DetailView):
     context_object_name = 'profile_detail'
     template_name = 'users/profile.html'
     model = Profile
@@ -36,7 +35,7 @@ class ProfileView(DataMixin, generic.DetailView):
         return self.model.objects.filter(user=self.kwargs.get('pk'))
 
 
-class UserChangeProfileView(DataMixin, generic.UpdateView):
+class UserChangeProfileView(generic.UpdateView):
     model = Profile
     fields = [
         'bio',
@@ -55,20 +54,20 @@ class UserChangeProfileView(DataMixin, generic.UpdateView):
     #     return  self.model.objects.filter(user_id=pk)
 
 
-class PasswordResetView(DataMixin, auth_views.PasswordResetView):
+class PasswordResetView(auth_views.PasswordResetView):
     template_name = 'users/password_reset.html'
 
 
-class PasswordResetDoneView(DataMixin, auth_views.PasswordResetDoneView):
+class PasswordResetDoneView(auth_views.PasswordResetDoneView):
     template_name = 'users/password_reset_done.html'
 
 
-class PasswordResetConfirmView(DataMixin, auth_views.PasswordResetConfirmView):
+class PasswordResetConfirmView(auth_views.PasswordResetConfirmView):
     template_name = 'users/password_reset_confirm.html'
 
     def get_success_url(self):
         return reverse_lazy('password_reset_complete')
 
 
-class PasswordResetCompleteView(DataMixin, auth_views.PasswordResetCompleteView):
+class PasswordResetCompleteView(auth_views.PasswordResetCompleteView):
     template_name = 'users/password_reset_complete.html'

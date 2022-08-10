@@ -1,33 +1,35 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.db.models import F
+from django.shortcuts import redirect
+from django.views.generic import ListView, CreateView
 
-from django.views.decorators.http import require_POST
-
-from main.models import Product
-from main.views import menu
-from .cart import Cart
+from main.models import Cart
 from .forms import CartAddProductForm
 
 
-@require_POST
-def cart_add(request, pk):
-    cart = Cart(request)
-    product = get_object_or_404(Product, pk=pk)
-    form = CartAddProductForm(request.POST)
-    if form.is_valid():
-        cd = form.cleaned_data
-        cart.add_to_cart(product=product,
-                         quantity=cd['quantity'],
-                         update_quantity=cd['update'])
-    return redirect('product_detail', pk)
+class CartView(ListView):
+    template_name = 'main/cart_detail.html'
+    context_object_name = 'cart_items'
+
+    def get_queryset(self):
+        return Cart.objects.filter(customer_id_id=self.kwargs.get('pk'))
 
 
-def cart_remove(request, pk):
-    cart = Cart(request)
-    product = get_object_or_404(Product, id=pk)
-    cart.remove(product)
-    return redirect('cart_detail')
+class AddCartItemView(CreateView):
+    model = Cart
 
+    def post(self, request, *args, **kwargs):
+        form = CartAddProductForm(request.POST)
+        user_pk = request.session['_auth_user_id']
+        product_pk = self.kwargs.get('pk')
+        quantity = form.data['quantity']
 
-def cart_detail(request):
-    cart = Cart(request)
-    return render(request, 'main/cart_detail.html', context={'cart': cart, 'menu': menu})
+        order_item, created_order_item = Cart.objects.get_or_create(
+            customer_id_id=user_pk,
+            product_id_id=product_pk
+        )
+        if created_order_item:
+            order_item.quantity = quantity
+        else:
+            order_item.quantity = F('quantity') + quantity
+        order_item.save()
+        return redirect('product_detail', product_pk)

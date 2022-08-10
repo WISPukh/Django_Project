@@ -39,4 +39,14 @@
         <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
         <a href="#" class="button">Checkout</a>
     </p>
+
+    {% if cart_items %}
+        {% for item in cart_items %}
+            <p>ТОВАР: {{ item }}</p>
+            <p>КОЛИЧЕСТВО ТОВАРА: {{ item.quantity }}</p>
+            <p>USER_ID: {{ item.customer_id_id }}</p>
+        {% endfor %}
+        {{ cart_items.product_id_id }}
+
+    {% endif %}
 {% endblock %}
