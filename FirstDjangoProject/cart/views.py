@@ -11,7 +11,19 @@ class CartView(ListView):
     context_object_name = 'cart_items'
 
     def get_queryset(self):
-        return Cart.objects.filter(customer_id_id=self.kwargs.get('pk'))
+        return Cart.objects.filter(customer_id_id=self.kwargs.get('pk')).prefetch_related('customer_id_id').values(
+            'product_id__name', 'product_id__price', 'quantity')
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        for product in context['cart_items']:
+            product['total_product_price'] = product['product_id__price'] * product['quantity']
+
+        context['total'] = {
+            'total_cart_price': sum([product['total_product_price'] for product in context['cart_items']])
+        }
+        return context
 
 
 class AddCartItemView(CreateView):

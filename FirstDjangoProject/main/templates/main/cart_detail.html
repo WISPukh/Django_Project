@@ -5,7 +5,7 @@
     <table class="cart">
         <thead>
         <tr>
-            <th>Image</th>
+{#            <th>Image</th>#}
             <th>Product</th>
             <th>Quantity</th>
             <th>Remove</th>
@@ -14,24 +14,24 @@
         </tr>
         </thead>
         <tbody style="text-align: center">
-        {% for item in cart %}
-            {% with product=item.product %}
+        {% for item in cart_items %}
+{#            {% with product=item.product %}#}
                 <tr>
-                    <td>
-                        <a href="{{ product.get_absolute_url }}">ссылка</a>
-                    </td>
-                    <td>{{ product.name }}</td>
+{#                    <td>#}
+{#                        <a href="{{ item.get_absolute_url }}">ссылка</a>#}
+{#                    </td>#}
+                    <td>{{ item.product_id__name }}</td>
                     <td>{{ item.quantity }}</td>
-                    <td><a href="{% url "cart_remove" product.id%}">Remove</a></td>
-                    <td class="num">${{ item.price }}</td>
-                    <td class="num">${{ item.total_price }}</td>
+                    <td><a href="#">Remove</a></td>
+                    <td class="num">${{ item.product_id__price }}</td>
+                    <td class="num">${{ item.total_product_price }}</td>
                 </tr>
-            {% endwith %}
+{#            {% endwith %}#}
         {% endfor %}
         <tr class="total" style="border-top: 1px solid black">
-            <td>Total</td>
-            <td colspan="4"></td>
-            <td class="num">${{ cart.get_total_price }}</td>
+            <td colspan="3"></td>
+            <td><b>Total</b></td>
+            <td class="num">${{ total.total_cart_price }}</td>
         </tr>
         </tbody>
     </table>
@@ -39,14 +39,4 @@
         <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
         <a href="#" class="button">Checkout</a>
     </p>
-
-    {% if cart_items %}
-        {% for item in cart_items %}
-            <p>ТОВАР: {{ item }}</p>
-            <p>КОЛИЧЕСТВО ТОВАРА: {{ item.quantity }}</p>
-            <p>USER_ID: {{ item.customer_id_id }}</p>
-        {% endfor %}
-        {{ cart_items.product_id_id }}
-
-    {% endif %}
 {% endblock %}
