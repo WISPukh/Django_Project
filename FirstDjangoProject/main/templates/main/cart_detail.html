@@ -16,16 +16,24 @@
         <tbody style="text-align: center">
         {% for item in cart_items %}
 {#            {% with product=item.product %}#}
-                <tr>
-{#                    <td>#}
-{#                        <a href="{{ item.get_absolute_url }}">ссылка</a>#}
-{#                    </td>#}
-                    <td>{{ item.product_id__name }}</td>
-                    <td>{{ item.quantity }}</td>
-                    <td><a href="#">Remove</a></td>
-                    <td class="num">${{ item.product_id__price }}</td>
-                    <td class="num">${{ item.total_product_price }}</td>
-                </tr>
+            {#                    <td>#}
+            {#                        <a href="{{ item.get_absolute_url }}">ссылка</a>#}
+            {#                    </td>#}
+            <tr>
+                <td>{{ item.product_id__name }}</td>
+                <td>{{ item.quantity }}</td>
+{#                <td><a href="{% remove_item item.product_id_id%}">Remove</a></td>#}
+                <td>
+                    <form action="{% url 'cart_remove' item.product_id_id%}" method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <input type="submit" value="Remove">
+                    </form>
+                </td>
+{#                <td><a href="{{ item.product_id_id item.remove_item }}">Remove</a></td>#}
+                <td class="num">${{ item.product_id__price }}</td>
+                <td class="num">${{ item.total_product_price }}</td>
+            </tr>
 {#            {% endwith %}#}
         {% endfor %}
         <tr class="total" style="border-top: 1px solid black">

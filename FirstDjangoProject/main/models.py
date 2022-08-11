@@ -2,6 +2,7 @@ import time
 
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
+from django.shortcuts import redirect
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
@@ -61,10 +62,17 @@ class Panel(Product):
 class Cart(models.Model):
     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
-    quantity = models.IntegerField(default=0)  # TODO метод для изменения количества товаров update_or_create()
+    quantity = models.IntegerField(default=0)
 
     def __str__(self):
         return f'List of products of Customer {self.customer_id.email}'
+
+    def remove_item(self, request, product_id):
+        user_pk = request.session['_auth_user_id']
+        record = self.objects.filter(pk=product_id)
+        print(record)
+        record.delete()
+        return redirect('cart_detail', user_pk)
 
 
 class Order(models.Model):

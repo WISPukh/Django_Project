@@ -1,9 +1,9 @@
 from django.db.models import F
 from django.shortcuts import redirect
-from django.views.generic import ListView, CreateView
+from django.views.generic import ListView, CreateView, DeleteView
 
 from main.models import Cart
-from .forms import CartAddProductForm
+from .forms import CartAddProductForm, CartDeleteProductForm
 
 
 class CartView(ListView):
@@ -12,7 +12,7 @@ class CartView(ListView):
 
     def get_queryset(self):
         return Cart.objects.filter(customer_id_id=self.kwargs.get('pk')).prefetch_related('customer_id_id').values(
-            'product_id__name', 'product_id__price', 'quantity')
+            'product_id__name', 'product_id__price', 'quantity', 'product_id_id')
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -45,3 +45,18 @@ class AddCartItemView(CreateView):
             order_item.quantity = F('quantity') + quantity
         order_item.save()
         return redirect('product_detail', product_pk)
+
+
+class RemoveCartItemView(DeleteView):
+    model = Cart
+    form_class = CartDeleteProductForm
+
+    def delete(self, request, *args, **kwargs):
+        user_pk = request.session['_auth_user_id']
+        product_pk = self.kwargs.get('pk')
+        obj = Cart.objects.filter(product_id_id=product_pk, customer_id_id=user_pk)
+        obj.delete()
+        return redirect('cart_detail', user_pk)
+
+    def post(self, request, *args, **kwargs):
+        return self.delete(request, *args, **kwargs)
