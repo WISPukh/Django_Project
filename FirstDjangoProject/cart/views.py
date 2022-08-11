@@ -3,7 +3,7 @@ from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView, DeleteView
 
 from main.models import Cart
-from .forms import CartAddProductForm, CartDeleteProductForm
+from .forms import CartAddProductForm
 
 
 class CartView(ListView):
@@ -49,7 +49,6 @@ class AddCartItemView(CreateView):
 
 class RemoveCartItemView(DeleteView):
     model = Cart
-    form_class = CartDeleteProductForm
 
     def delete(self, request, *args, **kwargs):
         user_pk = request.session['_auth_user_id']

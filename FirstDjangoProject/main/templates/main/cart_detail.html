@@ -1,50 +1,46 @@
 {% extends 'main/base.html' %}
 {% block title %}{% endblock %}
 {% block content %}
-    <h1>Your shopping cart</h1>
-    <table class="cart">
-        <thead>
-        <tr>
-{#            <th>Image</th>#}
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Remove</th>
-            <th>Unit price</th>
-            <th>Price</th>
-        </tr>
-        </thead>
-        <tbody style="text-align: center">
-        {% for item in cart_items %}
-{#            {% with product=item.product %}#}
-            {#                    <td>#}
-            {#                        <a href="{{ item.get_absolute_url }}">ссылка</a>#}
-            {#                    </td>#}
+    {% if cart_items %}
+        <h1>Your shopping cart</h1>
+        <table class="cart">
+            <thead>
             <tr>
-                <td>{{ item.product_id__name }}</td>
-                <td>{{ item.quantity }}</td>
-{#                <td><a href="{% remove_item item.product_id_id%}">Remove</a></td>#}
-                <td>
-                    <form action="{% url 'cart_remove' item.product_id_id%}" method="post">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                        <input type="submit" value="Remove">
-                    </form>
-                </td>
-{#                <td><a href="{{ item.product_id_id item.remove_item }}">Remove</a></td>#}
-                <td class="num">${{ item.product_id__price }}</td>
-                <td class="num">${{ item.total_product_price }}</td>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Remove</th>
+                <th>Unit price</th>
+                <th>Price</th>
             </tr>
-{#            {% endwith %}#}
-        {% endfor %}
-        <tr class="total" style="border-top: 1px solid black">
-            <td colspan="3"></td>
-            <td><b>Total</b></td>
-            <td class="num">${{ total.total_cart_price }}</td>
-        </tr>
-        </tbody>
-    </table>
-    <p class="text-right">
-        <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
-        <a href="#" class="button">Checkout</a>
-    </p>
+            </thead>
+            <tbody style="text-align: center">
+            {% for item in cart_items %}
+                <tr>
+                    <td>{{ item.product_id__name }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>
+                        <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
+                            {% csrf_token %}
+                            <input type="submit" value="Remove">
+                        </form>
+                    </td>
+                    <td class="num">${{ item.product_id__price }}</td>
+                    <td class="num">${{ item.total_product_price }}</td>
+                </tr>
+            {% endfor %}
+            <tr class="total" style="border-top: 1px solid black">
+                <td colspan="3"></td>
+                <td><b>Total</b></td>
+                <td class="num">${{ total.total_cart_price }}</td>
+            </tr>
+            </tbody>
+        </table>
+        <p class="text-right">
+            <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
+            <a href="#" class="button">Checkout</a>
+        </p>
+    {% else %}
+        <h1>You don't have anything in your cart</h1>
+        <p>Go <a href="{% url "catalog" %}" class="button light">here</a> to buy something</p>
+    {% endif %}
 {% endblock %}
