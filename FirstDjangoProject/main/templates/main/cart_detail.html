@@ -25,13 +25,13 @@
                         </form>
                     </td>
                     <td class="num">${{ item.product_id__price }}</td>
-                    <td class="num">${{ item.total_product_price }}</td>
+                    <td class="num">${{ item.total_cost_per_item }}</td>
                 </tr>
             {% endfor %}
             <tr class="total" style="border-top: 1px solid black">
                 <td colspan="3"></td>
                 <td><b>Total</b></td>
-                <td class="num">${{ total.total_cart_price }}</td>
+                <td class="num">${{ total_amount }}</td>
             </tr>
             </tbody>
         </table>

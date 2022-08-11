@@ -1,4 +1,4 @@
-from django.db.models import F
+from django.db.models import F, Sum
 from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView, DeleteView
 
@@ -10,25 +10,48 @@ class CartView(ListView):
     template_name = 'main/cart_detail.html'
     context_object_name = 'cart_items'
 
+    # на уровне Python
+    # def get_queryset(self):
+    #     return Cart.objects.filter(customer_id_id=self.kwargs.get('pk')).prefetch_related('customer_id_id').values(
+    #         'product_id__name', 'product_id__price', 'quantity', 'product_id_id')
+    #
+    # def get_context_data(self, *, object_list=None, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #
+    #     for product in context['cart_items']:
+    #         product['total_product_price'] = product['product_id__price'] * product['quantity']
+    #
+    #     context['total'] = {
+    #         'total_cart_price': sum([product['total_product_price'] for product in context['cart_items']])
+    #     }
+    #     return context
+
+    # на SQL
     def get_queryset(self):
-        return Cart.objects.filter(customer_id_id=self.kwargs.get('pk')).prefetch_related('customer_id_id').values(
-            'product_id__name', 'product_id__price', 'quantity', 'product_id_id')
+        self.queryset = self.annotate_total_product_price(user_pk=self.kwargs.get('pk'))
+        return self.queryset
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-
-        for product in context['cart_items']:
-            product['total_product_price'] = product['product_id__price'] * product['quantity']
-
-        context['total'] = {
-            'total_cart_price': sum([product['total_product_price'] for product in context['cart_items']])
-        }
+        context.update(self.get_total_price())
         return context
+
+    def annotate_total_product_price(self, user_pk):
+        return (
+            Cart.objects.filter(customer_id_id=user_pk)
+            .annotate(total_cost_per_item=F('quantity') * F('product_id__price'))
+            .values(
+                'product_id__price', 'product_id__name',
+                'quantity', 'product_id_id', 'total_cost_per_item'
+            )
+            .order_by('quantity')
+        )
+
+    def get_total_price(self):
+        return self.queryset.aggregate(total_amount=Sum('total_cost_per_item'))
 
 
 class AddCartItemView(CreateView):
-    model = Cart
-
     def post(self, request, *args, **kwargs):
         form = CartAddProductForm(request.POST)
         user_pk = request.session['_auth_user_id']
@@ -48,13 +71,10 @@ class AddCartItemView(CreateView):
 
 
 class RemoveCartItemView(DeleteView):
-    model = Cart
-
     def delete(self, request, *args, **kwargs):
         user_pk = request.session['_auth_user_id']
         product_pk = self.kwargs.get('pk')
-        obj = Cart.objects.filter(product_id_id=product_pk, customer_id_id=user_pk)
-        obj.delete()
+        Cart.objects.filter(product_id_id=product_pk, customer_id_id=user_pk).delete()
         return redirect('cart_detail', user_pk)
 
     def post(self, request, *args, **kwargs):
