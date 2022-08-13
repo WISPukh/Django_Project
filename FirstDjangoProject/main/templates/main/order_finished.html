@@ -1,0 +1,18 @@
+{% extends 'main/base.html' %}
+{% block title %}
+
+{% endblock %}
+{% block content %}
+    <h1>HOLY COW YOU MADE AN ORDER. HERE IS YOUR ORDER CONTENT BELOW:</h1>
+    {% if order_items %}
+        {% for item in order_items %}
+            <p>Имя товара: {{ item.product__name }}</p>
+            <p>Цена:{{ item.product__price }}</p>
+            <p>Количество{{ item.quantity }}</p>
+            <p>{{ item.status }}</p>
+            <p>[eq {{ item.total_cost_per_item }}</p>
+        {% endfor %}
+    {% else %}
+        <p>fuck</p>
+    {% endif %}
+{% endblock %}

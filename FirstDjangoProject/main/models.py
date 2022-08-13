@@ -2,7 +2,6 @@ import time
 
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
-from django.shortcuts import redirect
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
@@ -15,7 +14,7 @@ class Product(models.Model):
     price = models.IntegerField(default=0, verbose_name='Цена')
     in_stock = models.IntegerField(default=0, verbose_name='В запасе')
     category = models.ManyToManyField('Category')
-    img = models.ImageField(upload_to=f'uploads/', default=time.time())
+    img = models.ImageField(upload_to=f'uploads/')
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE, default=50)
 
     def __str__(self):
@@ -59,33 +58,32 @@ class Panel(Product):
     length = models.IntegerField(default=60, verbose_name='Длина')
 
 
-class Cart(models.Model):
-    customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
-    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
-    quantity = models.IntegerField(default=0)
-
-    def __str__(self):
-        return f'List of products of Customer {self.customer_id.email}'
-
-    def remove_item(self, request, product_id):
-        user_pk = request.session['_auth_user_id']
-        record = self.objects.filter(pk=product_id)
-        print(record)
-        record.delete()
-        return redirect('cart_detail', user_pk)
+# class Cart(models.Model):
+#     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
+#     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
+#     quantity = models.IntegerField(default=0)
+#
+#     def __str__(self):
+#         return f'List of products of Customer {self.customer_id.email}'
 
 
 class Order(models.Model):
     class OrderStatus(models.TextChoices):
+        CART = 'CART', _('Cart')
         CREATED = 'CR', _('Created')
         PAID = 'PAID', _('Paid')
         IS_DELIVERING = 'IS_DEL', _('Is Delivering')
         DELIVERED = 'DEL', _('Delivered')
 
     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
-    total_price = models.IntegerField(default=0)
-    total_quantity = models.IntegerField(default=0)
-    status = models.CharField(max_length=6, choices=OrderStatus.choices, default=OrderStatus.CREATED)
+    total_price = models.IntegerField(default=0, verbose_name='Цена заказа')
+    product = models.ManyToManyField(Product)
+    # product_name = models.CharField(max_length=50, verbose_name='Название товара', default=0)
+    # unit_price = models.IntegerField(default=0, verbose_name='Цена')
+    quantity = models.IntegerField(default=0, verbose_name='Количество')
+    city = models.CharField(max_length=80, verbose_name='Город', default=f'{round(time.time())}')
+    address = models.CharField(max_length=150, verbose_name='Адрес', default=f'{round(time.time())}')
+    status = models.CharField(max_length=6, choices=OrderStatus.choices, default=OrderStatus.CART)
 
     def __str__(self):
         return f'Order of Customer {self.customer_id.email}'
@@ -93,7 +91,7 @@ class Order(models.Model):
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
-    img_url = models.ImageField(max_length=50, default=time.time(), upload_to='category_images/')
+    img_url = models.ImageField(max_length=50, upload_to='category_images/')
 
     class Meta:
         verbose_name_plural = 'Categories'
