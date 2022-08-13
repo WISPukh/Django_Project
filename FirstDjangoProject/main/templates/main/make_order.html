@@ -3,7 +3,10 @@
 
 {% endblock %}
 {% block content %}
-    <h1>Your shopping cart</h1>
+    {% if not cart_items %}
+        <p>there is nothing, how did you even see that?</p>
+    {% else %}
+        <h1>Your shopping cart</h1>
         <table class="cart">
             <thead>
             <tr>
@@ -36,10 +39,16 @@
             </tr>
             </tbody>
         </table>
-    <h3>In order to make an order fill this fields</h3>
-    <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Order">
-    </form>
+        <h3>In order to make an order fill this fields</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Order">
+            {% if messages %}
+                {% for message in messages %}
+                    <span>{{ message }}</span>
+                {% endfor %}
+            {% endif %}
+        </form>
+    {% endif %}
 {% endblock %}
