@@ -3,6 +3,7 @@
 {% block content %}
     {% if cart_items %}
         <h1>Your shopping cart</h1>
+        <h1>STATUS: {{ cart_items.0.order_id__status }}</h1>
         <table class="cart">
             <thead>
             <tr>
@@ -16,15 +17,15 @@
             <tbody style="text-align: center">
             {% for item in cart_items %}
                 <tr>
-                    <td>{{ item.product__name }}</td>
-                    <td>{{ item.product__order__quantity }}</td>
+                    <td>{{ item.product_id__name }}</td>
+                    <td>{{ item.quantity }}</td>
                     <td>
-                        <form action="{% url 'cart_remove' item.product %}" method="post">
+                        <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
                             {% csrf_token %}
                             <input type="submit" value="Remove">
                         </form>
                     </td>
-                    <td class="num">${{ item.product__price }}</td>
+                    <td class="num">${{ item.product_id__price }}</td>
                     <td class="num">${{ item.total_cost_per_item }}</td>
                 </tr>
             {% endfor %}

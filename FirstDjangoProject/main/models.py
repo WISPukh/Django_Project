@@ -58,13 +58,13 @@ class Panel(Product):
     length = models.IntegerField(default=60, verbose_name='Длина')
 
 
-# class Cart(models.Model):
-#     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
-#     product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
-#     quantity = models.IntegerField(default=0)
-#
-#     def __str__(self):
-#         return f'List of products of Customer {self.customer_id.email}'
+class OrderItem(models.Model):
+    customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    product_id = models.ForeignKey(Product, on_delete=models.NOT_PROVIDED)
+    order_id = models.ForeignKey('Order', on_delete=models.CASCADE)
+    quantity = models.IntegerField(default=0)
+    product_name = models.CharField(max_length=50, verbose_name='Название товара', default=0)
+    unit_price = models.IntegerField(default=0, verbose_name='Цена')
 
 
 class Order(models.Model):
@@ -78,8 +78,6 @@ class Order(models.Model):
     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
     total_price = models.IntegerField(default=0, verbose_name='Цена заказа')
     product = models.ManyToManyField(Product)
-    # product_name = models.CharField(max_length=50, verbose_name='Название товара', default=0)
-    # unit_price = models.IntegerField(default=0, verbose_name='Цена')
     quantity = models.IntegerField(default=0, verbose_name='Количество')
     city = models.CharField(max_length=80, verbose_name='Город', default=f'{round(time.time())}')
     address = models.CharField(max_length=150, verbose_name='Адрес', default=f'{round(time.time())}')

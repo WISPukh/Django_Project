@@ -20,7 +20,7 @@
                     <td>{{ item.product_id__name }}</td>
                     <td>{{ item.quantity }}</td>
                     <td>
-                        <form action="{% url 'cart_remove' item.product %}" method="post">
+                        <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
                             {% csrf_token %}
                             <input type="submit" value="Remove">
                         </form>
@@ -36,10 +36,6 @@
             </tr>
             </tbody>
         </table>
-        <p class="text-right">
-{#            <a href="{% url "catalog" %}" class="button light">Continue shopping</a>#}
-{#            <a href="{% url 'make_order' user.id %}" class="button">Order</a>#}
-        </p>
     <h3>In order to make an order fill this fields</h3>
     <form method="post">
     {% csrf_token %}
