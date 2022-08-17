@@ -4,7 +4,7 @@ from django.views import generic
 
 from profiles.models import Profile
 from .forms import RegisterForm, LogInForm
-from .mixins import UserOwnProfile
+from .mixins import CheckUserIsOwnerMixin
 
 
 class UserRegisterView(generic.CreateView):
@@ -27,7 +27,7 @@ class UserLogOutView(auth_views.LogoutView):
     template_name = 'main/home.html'
 
 
-class ProfileView(UserOwnProfile, generic.DetailView):
+class ProfileView(CheckUserIsOwnerMixin, generic.DetailView):
     context_object_name = 'profile_detail'
     template_name = 'users/profile.html'
     model = Profile
@@ -36,7 +36,7 @@ class ProfileView(UserOwnProfile, generic.DetailView):
         return self.model.objects.filter(user=self.request.user.pk)
 
 
-class UserChangeProfileView(UserOwnProfile, generic.UpdateView):
+class UserChangeProfileView(CheckUserIsOwnerMixin, generic.UpdateView):
     model = Profile
     fields = [
         'bio',

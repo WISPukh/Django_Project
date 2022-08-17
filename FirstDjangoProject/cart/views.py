@@ -166,7 +166,7 @@ class MakeOrderView(LoginRequiredMixin, CartDataMixin, CreateView):
         order.city = cleaned_data['city']
         order.address = cleaned_data['address']
         order.total_price = total_price
-        order.status = 'CR'
+        order.status = 'CREATED'
         order.save()
         order_created.delay(order.pk)
 
@@ -175,9 +175,7 @@ class MakeOrderView(LoginRequiredMixin, CartDataMixin, CreateView):
     @staticmethod
     def validate_cart_products_amount(check_list, order_items):
         for index, item in enumerate(check_list):
-            if item.in_stock < order_items[index].quantity:
-                raise OrderAmountExceededError
-            if 1 > order_items[index].quantity:
+            if item.in_stock < order_items[index].quantity or 1 > order_items[index].quantity:
                 raise OrderAmountExceededError
         return None
 
@@ -198,7 +196,7 @@ class OrdersView(LoginRequiredMixin, ListView):
     context_object_name = 'orders'
 
     def get_queryset(self):
-        return Order.objects.filter(customer_id_id=self.request.user.pk, status='CR').values(
+        return Order.objects.filter(customer_id_id=self.request.user.pk, status='CREATED').values(
             'id',
             'total_price',
             'quantity',
@@ -214,7 +212,7 @@ class OrdersView(LoginRequiredMixin, ListView):
         for order in context['orders']:
             order_item = OrderItem.objects.filter(
                 customer_id_id=self.request.user.pk,
-                order_id__status='CR',
+                order_id__status='CREATED',
                 order_id_id=order['id']
             ).annotate(total_cost_per_item=F('quantity') * F('product_id__price')).values(
                 'quantity',
