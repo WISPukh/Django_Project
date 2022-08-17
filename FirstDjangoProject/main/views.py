@@ -2,43 +2,30 @@ from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 from django.views import generic
 
+from cart.forms import CartAddProductForm
 from .models import *
-
-menu = [
-    {'title': 'Главная', 'url': 'index', 'img_url': 'img/home.png'},
-    {'title': 'О компании', 'url': 'about', 'img_url': 'img/about.png'},
-    {'title': 'Каталог товаров', 'url': 'catalog', 'img_url': 'img/catalog.png'},
-    {'title': 'Отзывы', 'url': 'reviews', 'img_url': 'img/review.png'},
-]
 
 
 def index(request):
-    return render(request, 'main/home.html', {'menu': menu})
+    return render(request, 'main/home.html')
 
 
 def about(request):
-    return render(request, 'main/about.html', {'menu': menu})
+    return render(request, 'main/about.html')
 
 
 def reviews(request):
-    return render(request, 'main/reviews.html', {'menu': menu})
+    return render(request, 'main/reviews.html')
 
 
-class DataMixin:
-    def get_context_data(self, *, object_list=None, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['menu'] = menu
-        return context
-
-
-class CatalogView(DataMixin, generic.ListView):
+class CatalogView(generic.ListView):
     model = Category
     ordering = 'id'
     template_name = 'main/catalog.html'
     context_object_name = 'catalog_list'
 
 
-class ProductByCategoryView(DataMixin, generic.ListView):
+class ProductByCategoryView(generic.ListView):
     model = Product
     context_object_name = 'products_list'
     template_name = 'main/products_by_category.html'
@@ -47,7 +34,7 @@ class ProductByCategoryView(DataMixin, generic.ListView):
         return Product.objects.filter(category__name=self.kwargs.get('category_name'))
 
 
-class ProductDetailView(DataMixin, generic.DetailView):
+class ProductDetailView(generic.DetailView):
     context_object_name = 'product_detail'
     template_name = 'main/product_detail.html'
 
@@ -55,3 +42,9 @@ class ProductDetailView(DataMixin, generic.DetailView):
         current_item = get_object_or_404(Product, pk=self.kwargs.get('pk'))
         content_type = ContentType.model_class(current_item.content_type)
         return content_type.objects.all()
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(ProductDetailView, self).get_context_data()
+        cart_product_form = CartAddProductForm()
+        context['cart_form'] = cart_product_form
+        return context

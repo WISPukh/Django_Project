@@ -14,7 +14,7 @@ class Product(models.Model):
     price = models.IntegerField(default=0, verbose_name='Цена')
     in_stock = models.IntegerField(default=0, verbose_name='В запасе')
     category = models.ManyToManyField('Category')
-    img = models.ImageField(upload_to=f'uploads/', default=time.time())
+    img = models.ImageField(upload_to='uploads/')
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE, default=50)
 
     def __str__(self):
@@ -58,26 +58,30 @@ class Panel(Product):
     length = models.IntegerField(default=60, verbose_name='Длина')
 
 
-class Cart(models.Model):
+class OrderItem(models.Model):
     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
-    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
-    quantity = models.IntegerField(default=0)  # TODO метод для изменения количества товаров update_or_create()
-
-    def __str__(self):
-        return f'List of products of Customer {self.customer_id.email}'
+    product_id = models.ForeignKey(Product, on_delete=models.NOT_PROVIDED)
+    order_id = models.ForeignKey('Order', on_delete=models.CASCADE)
+    quantity = models.IntegerField(default=0)
+    product_name = models.CharField(default=0, max_length=50, verbose_name='Название товара')
+    unit_price = models.IntegerField(default=0, verbose_name='Цена')
 
 
 class Order(models.Model):
     class OrderStatus(models.TextChoices):
-        CREATED = 'CR', _('Created')
+        CART = 'CART', _('Cart')
+        CREATED = 'CREATED', _('Created')
         PAID = 'PAID', _('Paid')
-        IS_DELIVERING = 'IS_DEL', _('Is Delivering')
-        DELIVERED = 'DEL', _('Delivered')
+        IS_DELIVERING = 'IS_DELIVERING', _('Is Delivering')
+        DELIVERED = 'DELIVERED', _('Delivered')
 
     customer_id = models.ForeignKey(User, on_delete=models.CASCADE)
-    total_price = models.IntegerField(default=0)
-    total_quantity = models.IntegerField(default=0)
-    status = models.CharField(max_length=6, choices=OrderStatus.choices, default=OrderStatus.CREATED)
+    total_price = models.IntegerField(default=0, verbose_name='Цена заказа')
+    product = models.ManyToManyField(Product)
+    quantity = models.IntegerField(default=0, verbose_name='Количество')
+    city = models.CharField(max_length=80, verbose_name='Город', default=f'{round(time.time())}')
+    address = models.CharField(max_length=150, verbose_name='Адрес', default=f'{round(time.time())}')
+    status = models.CharField(max_length=13, choices=OrderStatus.choices, default=OrderStatus.CART)
 
     def __str__(self):
         return f'Order of Customer {self.customer_id.email}'
@@ -85,7 +89,7 @@ class Order(models.Model):
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
-    img_url = models.ImageField(max_length=50, default=time.time(), upload_to='category_images/')
+    img_url = models.ImageField(max_length=50, upload_to='category_images/')
 
     class Meta:
         verbose_name_plural = 'Categories'

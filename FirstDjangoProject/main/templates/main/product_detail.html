@@ -6,10 +6,23 @@
     <h1 class="center">ЗДЕСЬ БУДЕТ ОДИН ТОВАР С ЦЕНОЙ, ДОБАВЛЕНИЕМ В КОРЗИНУ И БЛЭКДЖЭКОМ И... </h1>
     <div class="items">
         <div class="item">
-            {% if product_detail %}
-                <img src="{{ MEDIA_URL }}{{ product_detail.img }}" alt="">
-                {% for name, value in product_detail|get_verbose_field_name %}
-                    <p>{{ name.capitalize }}: {{ value.capitalize }}</p>
+            <img src="{{ MEDIA_URL }}{{ product_detail.img }}" alt="">
+            {% for name, value in product_detail|get_verbose_field_name %}
+                <p>{{ name.capitalize }}: {{ value.capitalize }}</p>
+            {% endfor %}
+            {% if not_in_stock %}
+                <p>{{ not_in_stock }}</p>
+            {% endif %}
+            {% if user.is_authenticated %}
+                <form action="{% url 'cart_add' product_detail.pk %}" method="post">
+                    {{ cart_form }}
+                    {% csrf_token %}
+                    <input type="submit" value="Add to cart">
+                </form>
+            {% endif %}
+            {% if messages %}
+                {% for message in messages %}
+                    <span class="success">{{ message }}</span>
                 {% endfor %}
             {% endif %}
         </div>

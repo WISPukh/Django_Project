@@ -1,0 +1,52 @@
+{% extends 'main/base.html' %}
+{% block title %}Сделать Заказ{% endblock %}
+{% block content %}
+    {% if not cart_items %}
+        <p>there is nothing, how did you even see that?</p>
+    {% else %}
+        <h1>Creating an order</h1>
+        <table class="cart">
+            <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Remove</th>
+                <th>Unit price</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody style="text-align: center">
+            {% for item in cart_items %}
+                <tr>
+                    <td>{{ item.product_id__name }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>
+                        <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
+                            {% csrf_token %}
+                            <input type="submit" value="Remove">
+                        </form>
+                    </td>
+                    <td class="num">${{ item.product_id__price }}</td>
+                    <td class="num">${{ item.total_cost_per_item }}</td>
+                </tr>
+            {% endfor %}
+            <tr class="total" style="border-top: 1px solid black">
+                <td colspan="3"></td>
+                <td><b>Total</b></td>
+                <td class="num">${{ total_amount }}</td>
+            </tr>
+            </tbody>
+        </table>
+        <h3>In order to make an order fill this fields</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Order">
+            {% if messages %}
+                {% for message in messages %}
+                    <span class="error">{{ message }}</span>
+                {% endfor %}
+            {% endif %}
+        </form>
+    {% endif %}
+{% endblock %}

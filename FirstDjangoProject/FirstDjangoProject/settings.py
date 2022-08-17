@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'users',
     'main',
     'profiles',
+    'cart',
 
 ]
 
@@ -151,3 +152,8 @@ EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
+
+
+CART_SESSION_ID = 'cart'
+
+LOGIN_URL = '/account/login/'

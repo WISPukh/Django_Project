@@ -1,0 +1,46 @@
+{% extends 'main/base.html' %}
+{% block title %}{% endblock %}
+{% block content %}
+    {% if not cart_items %}
+        <h1>You don't have anything in your cart</h1>
+        <p>Go <a href="{% url "catalog" %}" class="button light">here</a> to buy something</p>
+    {% else %}
+        <h1>Your shopping cart</h1>
+        <table class="cart">
+            <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Remove</th>
+                <th>Unit price</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody style="text-align: center">
+            {% for item in cart_items %}
+                <tr>
+                    <td>{{ item.product_id__name }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>
+                        <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
+                            {% csrf_token %}
+                            <input type="submit" value="Remove">
+                        </form>
+                    </td>
+                    <td class="num">${{ item.product_id__price }}</td>
+                    <td class="num">${{ item.total_cost_per_item }}</td>
+                </tr>
+            {% endfor %}
+            <tr class="total" style="border-top: 1px solid black">
+                <td colspan="3"></td>
+                <td><b>Total</b></td>
+                <td class="num">${{ total_amount }}</td>
+            </tr>
+            </tbody>
+        </table>
+        <p class="text-right">
+            <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
+            <a href="{% url 'make_order' %}" class="button">Order</a>
+        </p>
+    {% endif %}
+{% endblock %}
