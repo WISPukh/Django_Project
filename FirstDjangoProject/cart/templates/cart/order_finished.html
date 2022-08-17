@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+{% block title %}Заказы{% endblock %}
+{% block content %}
+    <h1 STYLE="margin: auto">HERE ARE YOUR ORDERS AND THEIR CONTENT:</h1>
+    {% if orders %}
+        {% for order in orders %}
+            <h3 style="margin: auto">Заказ номер: {{ forloop.counter }}</h3>
+            <div class="items" style="margin: auto">
+                {% with items=order.items %}
+                    {% for item in items %}
+                        <p>Имя товара: {{ item.product_name }}</p>
+                        <p>Цена: {{ item.product_id__price }}</p>
+                        <p>Количество: {{ item.quantity }}</p>
+                        <p>Общая цена за конкретный товар: {{ item.total_cost_per_item }}</p>
+                    {% endfor %}
+                {% endwith %}
+                <p>Город доставки: {{ order.city }}</p>
+                <p>Адрес доставки: {{ order.address }}</p>
+                <p>Общая цена за заказ: {{ order.total_price }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>fuck</p>
+    {% endif %}
+{% endblock %}

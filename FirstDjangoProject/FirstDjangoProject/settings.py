@@ -155,3 +155,5 @@ EMAIL_USE_SSL = True
 
 
 CART_SESSION_ID = 'cart'
+
+LOGIN_URL = '/account/login/'

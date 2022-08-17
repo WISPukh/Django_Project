@@ -4,6 +4,7 @@ from django.views import generic
 
 from profiles.models import Profile
 from .forms import RegisterForm, LogInForm
+from .mixins import UserOwnProfile
 
 
 class UserRegisterView(generic.CreateView):
@@ -26,16 +27,16 @@ class UserLogOutView(auth_views.LogoutView):
     template_name = 'main/home.html'
 
 
-class ProfileView(generic.DetailView):
+class ProfileView(UserOwnProfile, generic.DetailView):
     context_object_name = 'profile_detail'
     template_name = 'users/profile.html'
     model = Profile
 
     def get_queryset(self):
-        return self.model.objects.filter(user=self.kwargs.get('pk'))
+        return self.model.objects.filter(user=self.request.user.pk)
 
 
-class UserChangeProfileView(generic.UpdateView):
+class UserChangeProfileView(UserOwnProfile, generic.UpdateView):
     model = Profile
     fields = [
         'bio',
@@ -47,11 +48,7 @@ class UserChangeProfileView(generic.UpdateView):
     template_name = 'users/change_profile.html'
 
     def get_success_url(self):
-        return reverse_lazy('profile', kwargs={'pk': self.object.pk})
-    # если опять поломаются пользователи, то нужно делать что-то подобное
-    # def get_queryset(self):
-    #     pk = self.kwargs.get('pk')
-    #     return  self.model.objects.filter(user_id=pk)
+        return reverse_lazy('profile', kwargs={'pk': self.request.user.pk})
 
 
 class PasswordResetView(auth_views.PasswordResetView):

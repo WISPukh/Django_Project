@@ -87,11 +87,14 @@ body {
     height: 60px;
 }
 
-span {
+span, .error{
     color: #c5123a;
     font-weight: bold
 }
-
+.success{
+    color: #03c500;
+    font-weight: bold;
+}
 #navbar a:hover {
     background-color: #ac163b;
 }
@@ -252,7 +255,7 @@ span {
     }
 
     #navbar a:visited, #navbar a:link {
-        padding: 20px 70px;
+        padding: 20px 30px;
         font-size: 15pt;
         text-decoration: none;
         color: white;

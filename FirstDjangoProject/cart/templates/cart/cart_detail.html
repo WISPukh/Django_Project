@@ -1,10 +1,9 @@
 {% extends 'main/base.html' %}
-{% block title %}
-
-{% endblock %}
+{% block title %}{% endblock %}
 {% block content %}
     {% if not cart_items %}
-        <p>there is nothing, how did you even see that?</p>
+        <h1>You don't have anything in your cart</h1>
+        <p>Go <a href="{% url "catalog" %}" class="button light">here</a> to buy something</p>
     {% else %}
         <h1>Your shopping cart</h1>
         <table class="cart">
@@ -39,16 +38,9 @@
             </tr>
             </tbody>
         </table>
-        <h3>In order to make an order fill this fields</h3>
-        <form method="post">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <input type="submit" value="Order">
-            {% if messages %}
-                {% for message in messages %}
-                    <span>{{ message }}</span>
-                {% endfor %}
-            {% endif %}
-        </form>
+        <p class="text-right">
+            <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
+            <a href="{% url 'make_order' %}" class="button">Order</a>
+        </p>
     {% endif %}
 {% endblock %}

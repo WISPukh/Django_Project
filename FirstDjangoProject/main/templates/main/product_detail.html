@@ -10,14 +10,21 @@
             {% for name, value in product_detail|get_verbose_field_name %}
                 <p>{{ name.capitalize }}: {{ value.capitalize }}</p>
             {% endfor %}
-        {% if not_in_stock %}
-            <p>{{ not_in_stock }}</p>
-        {% endif %}
-            <form action="{% url 'cart_add' product_detail.pk %}" method="post">
-                {{ cart_form }}
-                {% csrf_token %}
-                <input type="submit" value="Add to cart">
-            </form>
+            {% if not_in_stock %}
+                <p>{{ not_in_stock }}</p>
+            {% endif %}
+            {% if user.is_authenticated %}
+                <form action="{% url 'cart_add' product_detail.pk %}" method="post">
+                    {{ cart_form }}
+                    {% csrf_token %}
+                    <input type="submit" value="Add to cart">
+                </form>
+            {% endif %}
+            {% if messages %}
+                {% for message in messages %}
+                    <span class="success">{{ message }}</span>
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
 {% endblock %}
