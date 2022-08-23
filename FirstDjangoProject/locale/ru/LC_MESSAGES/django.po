@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-23 11:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: FirstDjangoProject/settings.py:97
+msgid "English"
+msgstr "Английский"
+
+#: FirstDjangoProject/settings.py:98
+msgid "Russian"
+msgstr "Русский"
+
+#: cart/models.py:9 cart/templates/cart/cart_detail.html:3
+msgid "Cart"
+msgstr "Корзина"
+
+#: cart/models.py:10
+msgid "Created"
+msgstr "Создан"
+
+#: cart/models.py:11
+msgid "Paid"
+msgstr "Оплачен"
+
+#: cart/models.py:12
+msgid "Is Delivering"
+msgstr "Доставляется"
+
+#: cart/models.py:13
+msgid "Delivered"
+msgstr "Доставлен"
+
+#: cart/models.py:17 profiles/models.py:12
+msgid "User"
+msgstr "Пользователь"
+
+#: cart/models.py:20 cart/models.py:33 cart/templates/cart/cart_detail.html:14
+#: cart/templates/cart/make_order.html:13
+#: cart/templates/cart/order_finished.html:14
+msgid "Quantity"
+msgstr "Количество"
+
+#: cart/models.py:21 cart/templates/cart/order_finished.html:12
+#: shop/models.py:10
+msgid "Product name"
+msgstr "Название продукта"
+
+#: cart/models.py:22 cart/templates/cart/cart_detail.html:16
+#: cart/templates/cart/make_order.html:15
+#: cart/templates/cart/order_finished.html:13 shop/models.py:12
+#: shop/templates/shop/products_by_category.html:16
+msgid "Price"
+msgstr "Цена"
+
+#: cart/models.py:25
+msgid "Item in order"
+msgstr "Товар в заказе"
+
+#: cart/models.py:26
+msgid "Items in order"
+msgstr "Товары в заказе"
+
+#: cart/models.py:30
+msgid "Customer"
+msgstr "Покупатель"
+
+#: cart/models.py:31 cart/templates/cart/order_finished.html:20
+msgid "Order price"
+msgstr "Цена заказа"
+
+#: cart/models.py:34 cart/templates/cart/order_finished.html:18
+msgid "City"
+msgstr "Город"
+
+#: cart/models.py:35 cart/templates/cart/order_finished.html:19
+msgid "Address"
+msgstr "Адрес проживания"
+
+#: cart/models.py:39
+msgid "Order"
+msgstr "Заказ"
+
+#: cart/models.py:40
+msgid "Orders"
+msgstr "Заказы"
+
+#: cart/templates/cart/cart_detail.html:6
+msgid "You don't have anything in your cart"
+msgstr "В Вашей корзине ничего нет"
+
+#: cart/templates/cart/cart_detail.html:7
+msgid "Go here to buy something"
+msgstr "Перейдите сюда, чтобы купить что-нибудь"
+
+#: cart/templates/cart/cart_detail.html:9
+msgid "Your shopping cart"
+msgstr "Ваша корзина"
+
+#: cart/templates/cart/cart_detail.html:13
+#: cart/templates/cart/make_order.html:12 shop/models.py:19
+msgid "Product"
+msgstr "Товар"
+
+#: cart/templates/cart/cart_detail.html:15
+#: cart/templates/cart/cart_detail.html:28
+#: cart/templates/cart/make_order.html:14
+#: cart/templates/cart/make_order.html:27
+msgid "Remove"
+msgstr "Удалить"
+
+#: cart/templates/cart/cart_detail.html:17
+#: cart/templates/cart/make_order.html:16
+msgid "Amount per item"
+msgstr "Цена"
+
+#: cart/templates/cart/cart_detail.html:37
+#: cart/templates/cart/make_order.html:36
+msgid "Total"
+msgstr "Итого"
+
+#: cart/templates/cart/cart_detail.html:43
+msgid "Continue shopping"
+msgstr "Продолжить закупку"
+
+#: cart/templates/cart/cart_detail.html:44
+#: cart/templates/cart/make_order.html:3
+msgid "Make order"
+msgstr "Составление заказа"
+
+#: cart/templates/cart/make_order.html:6
+msgid "there is nothing, how did you even see that?"
+msgstr "Здесь ничего нет, как ты это вообще увидел?"
+
+#: cart/templates/cart/make_order.html:8
+msgid "Creating an order"
+msgstr "Составление заказа"
+
+#: cart/templates/cart/make_order.html:41
+msgid "In order to make an order fill this fields"
+msgstr "Чтобы составить заказ, заполните эти поля"
+
+#: cart/templates/cart/make_order.html:45
+msgid "Create order"
+msgstr "Составить заказ"
+
+#: cart/templates/cart/order_finished.html:3
+#: users/templates/users/profile.html:15
+msgid "Your orders"
+msgstr "Ваши заказы"
+
+#: cart/templates/cart/order_finished.html:5
+msgid "Here are Your orders and their content"
+msgstr "Вот Ваши заказы и их состав"
+
+#: cart/templates/cart/order_finished.html:8
+msgid "Order number"
+msgstr "Номер заказа"
+
+#: cart/templates/cart/order_finished.html:15
+msgid "Price for specific product"
+msgstr "Цена за конкретный товар"
+
+#: cart/templates/cart/order_finished.html:24
+msgid "You haven't made any orders yet"
+msgstr "Вы еще не сделали ни одного заказа"
+
+#: profiles/models.py:18
+msgid "User's bio"
+msgstr "Личная информация"
+
+#: profiles/models.py:23
+msgid "Birthday"
+msgstr "Дата рождения"
+
+#: profiles/models.py:30
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: profiles/models.py:35
+msgid "Age"
+msgstr "Возраст"
+
+#: profiles/models.py:41
+msgid "Region"
+msgstr "Область"
+
+#: profiles/models.py:45
+msgid "Profile"
+msgstr "Профиль"
+
+#: profiles/models.py:46
+msgid "Profiles"
+msgstr "Профили"
+
+#: shop/models.py:11 shop/templates/shop/products_by_category.html:15
+msgid "Description"
+msgstr "Описание"
+
+#: shop/models.py:13 shop/templates/shop/products_by_category.html:17
+msgid "In stock"
+msgstr "В запасе"
+
+#: shop/models.py:20 shop/templates/shop/base.html:24
+msgid "Products"
+msgstr "Товары"
+
+#: shop/models.py:30
+msgid "Mixer type"
+msgstr "Тип миксера"
+
+#: shop/models.py:31 shop/models.py:50
+msgid "Fan speed"
+msgstr "Скорость вентилятора"
+
+#: shop/models.py:32
+msgid "Bowl size"
+msgstr "Размер чаши"
+
+#: shop/models.py:35
+msgid "Mixer"
+msgstr "Миксер"
+
+#: shop/models.py:36 shop/templates/shop/base.html:25
+msgid "Mixers"
+msgstr "Миксеры"
+
+#: shop/models.py:40 shop/models.py:49 shop/models.py:58
+msgid "Volume"
+msgstr "Объем"
+
+#: shop/models.py:41 shop/models.py:59
+msgid "Power"
+msgstr "Мощность"
+
+#: shop/models.py:44
+msgid "Teapot"
+msgstr "Чайник"
+
+#: shop/models.py:45 shop/templates/shop/base.html:27
+msgid "Teapots"
+msgstr "Чайники"
+
+#: shop/models.py:53
+msgid "Blender"
+msgstr "Блендер"
+
+#: shop/models.py:54 shop/templates/shop/base.html:26
+msgid "Blenders"
+msgstr "Блендеры"
+
+#: shop/models.py:62
+msgid "Combine"
+msgstr "Комбайн"
+
+#: shop/models.py:63 shop/templates/shop/base.html:28
+msgid "Combines"
+msgstr "Комбайны"
+
+#: shop/models.py:67 shop/models.py:78
+msgid "Height"
+msgstr "Высота"
+
+#: shop/models.py:68 shop/models.py:79
+msgid "Width"
+msgstr "Ширина"
+
+#: shop/models.py:69 shop/models.py:80
+msgid "Length"
+msgstr "Длина"
+
+#: shop/models.py:72
+msgid "Fridge"
+msgstr "Холодильник"
+
+#: shop/models.py:73 shop/templates/shop/base.html:30
+msgid "Fridges"
+msgstr "Холодильники"
+
+#: shop/models.py:83
+msgid "Panel"
+msgstr "Печка"
+
+#: shop/models.py:84 shop/templates/shop/base.html:29
+msgid "Panels"
+msgstr "Печки"
+
+#: shop/models.py:88
+msgid "Category name"
+msgstr "Название категории"
+
+#: shop/models.py:92
+msgid "Category"
+msgstr "Категория"
+
+#: shop/models.py:93
+msgid "Categories"
+msgstr "Категории"
+
+#: shop/templates/shop/about.html:5
+msgid "About shop"
+msgstr "О магазине"
+
+#: shop/templates/shop/about.html:9
+msgid "About shop and company"
+msgstr "О магазине и компании"
+
+#: shop/templates/shop/about.html:14
+msgid "Our mixers work for"
+msgstr "Наши миксеры работают по"
+
+#: shop/templates/shop/about.html:14
+msgid "years"
+msgstr "лет"
+
+#: shop/templates/shop/about.html:18
+msgid "widest"
+msgstr "Широчайшая"
+
+#: shop/templates/shop/about.html:18
+msgid "color palette"
+msgstr "цветовая палитра"
+
+#: shop/templates/shop/about.html:22
+msgid "Economic"
+msgstr "Экономичный"
+
+#: shop/templates/shop/about.html:22
+msgid "energy-saving engine"
+msgstr "энергосберегающий двигатель"
+
+#: shop/templates/shop/about.html:25
+msgid "company overview"
+msgstr ""
+"Официальный магазин KitchenAid – это фантастический выбор незаменимых "
+"помощников для создания вкуснейших шедевров на кухне. Вся кухонная техника в "
+"каталоге соответствует премиум-сегменту, что подтверждает высокое качество "
+"материалов, надежность сборки и проверенный функционал."
+
+#: shop/templates/shop/about.html:26
+msgid "catalog overview"
+msgstr ""
+"В широком ассортименте моделей представлены кухонные машины, заменяющие "
+"сразу несколько мощнейших устройств - планетарные миксеры, блендеры, "
+"мясорубки, измельчители и даже соковыжималки, чайники нового поколения, "
+"позволяющие довести воду до оптимальной температуры для идеального раскрытия "
+"вкусовых качеств любимого напитка; Кофемашины и тостеры для легкого, "
+"быстрого и полезного завтрака."
+
+#: shop/templates/shop/about.html:27
+msgid "order here"
+msgstr "Заказывайте бытовую технику в нашем интернет-магазине"
+
+#: shop/templates/shop/about.html:31
+msgid "feedback"
+msgstr "Обратная связь"
+
+#: shop/templates/shop/about.html:32
+msgid "write us"
+msgstr "Если у вас есть вопросы пишите"
+
+#: shop/templates/shop/about.html:34
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: shop/templates/shop/about.html:37
+msgid "Your email"
+msgstr "Ваша почта"
+
+#: shop/templates/shop/about.html:40
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: shop/templates/shop/about.html:42
+msgid "send feedback form"
+msgstr "Обратная связь"
+
+#: shop/templates/shop/about.html:42
+msgid "feedback policy"
+msgstr "политикой хранения персональных данных "
+
+#: shop/templates/shop/about.html:43
+#: users/templates/users/change_profile.html:10
+#: users/templates/users/password_reset.html:9
+#: users/templates/users/password_reset_confirm.html:11
+msgid "submit"
+msgstr "Подтвердить"
+
+#: shop/templates/shop/base.html:33 shop/templates/shop/included/header.html:12
+msgid "About company"
+msgstr "О компании"
+
+#: shop/templates/shop/base.html:34
+msgid "Warranty and service"
+msgstr "Гарантия и сервис"
+
+#: shop/templates/shop/base.html:35
+msgid "Manufacturers"
+msgstr "Производители"
+
+#: shop/templates/shop/base.html:36
+msgid "Promo"
+msgstr "Акции"
+
+#: shop/templates/shop/catalog.html:4
+#: shop/templates/shop/included/header.html:16
+msgid "catalog"
+msgstr "Каталог"
+
+#: shop/templates/shop/home.html:4 shop/templates/shop/included/header.html:8
+msgid "Home"
+msgstr "Главная"
+
+#: shop/templates/shop/home.html:8
+msgid "Appliances KitchenAid"
+msgstr "Кухонные машины KitchenAid"
+
+#: shop/templates/shop/home.html:11
+msgid "main page intro"
+msgstr ""
+"Современные люди живут настолько насыщенной жизнью, что времени на насущную "
+"потребность в жизни просто не хватает. форма ежедневного приготовления пищи. "
+"Бытовая техника для кухни помогает не только минимизировать временные "
+"затраты, но и также значительно облегчают сам процесс."
+
+#: shop/templates/shop/included/header.html:20
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: shop/templates/shop/product_detail.html:17
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: shop/templates/shop/products_by_category.html:4
+#: shop/templates/shop/products_by_category.html:7
+msgid "Products by category"
+msgstr "Продукты определенной категории"
+
+#: shop/templates/shop/products_by_category.html:22
+msgid "There are no products of this category in stock"
+msgstr "В запасе нет продуктов по этой категории"
+
+#: users/models.py:10
+msgid "email address"
+msgstr "почтовый адрес"
+
+#: users/templates/users/change_profile.html:3
+msgid "change profile"
+msgstr "Изменить профиль"
+
+#: users/templates/users/login_form.html:3
+msgid "Login page"
+msgstr "Страница входа"
+
+#: users/templates/users/login_form.html:10
+msgid "Login"
+msgstr "Войти"
+
+#: users/templates/users/login_form.html:12
+msgid "Forgot password?"
+msgstr "Забыли пароль"
+
+#: users/templates/users/password_reset.html:3
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
+#: users/templates/users/password_reset.html:5
+msgid "Enter Your email to set a new password"
+msgstr "Введите Вашу почту, чтобы установить новый пароль"
+
+#: users/templates/users/password_reset_complete.html:3
+msgid "Password reset complete"
+msgstr "Сброс пароля завершен"
+
+#: users/templates/users/password_reset_complete.html:5
+msgid "You successfully changed your password"
+msgstr "Вы успешно сменили пароль"
+
+#: users/templates/users/password_reset_complete.html:6
+msgid "Login here"
+msgstr "Войти в аккаунт"
+
+#: users/templates/users/password_reset_confirm.html:3
+msgid "set password"
+msgstr "Установка пароля"
+
+#: users/templates/users/password_reset_confirm.html:5
+msgid "Enter a new password"
+msgstr "Введите новый пароль"
+
+#: users/templates/users/password_reset_done.html:3
+msgid "Email sent"
+msgstr "Письмо отправлено"
+
+#: users/templates/users/password_reset_done.html:5
+msgid "We successfully emailed you."
+msgstr "Мы успешно отправили Вам письмо на почту"
+
+#: users/templates/users/profile.html:13
+msgid "Change profile"
+msgstr "Изменить профиль"
+
+#: users/templates/users/registration_form.html:3
+msgid "Registration"
+msgstr "Регистрация"
+
+#: users/templates/users/registration_form.html:10
+msgid "sign up"
+msgstr "зарегистрироваться"

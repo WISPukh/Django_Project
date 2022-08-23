@@ -1,18 +1,19 @@
-{% extends 'main/base.html' %}
-{% block title %}Сделать Заказ{% endblock %}
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Make order' %}{% endblock %}
 {% block content %}
     {% if not cart_items %}
-        <p>there is nothing, how did you even see that?</p>
+        <p>{% trans 'there is nothing, how did you even see that?' %}</p>
     {% else %}
-        <h1>Creating an order</h1>
+        <h1>{% trans 'Creating an order' %}</h1>
         <table class="cart">
             <thead>
             <tr>
-                <th>Product</th>
-                <th>Quantity</th>
-                <th>Remove</th>
-                <th>Unit price</th>
-                <th>Price</th>
+                <th>{% trans 'Product' %}</th>
+                <th>{% trans 'Quantity' %}</th>
+                <th>{% trans 'Remove' %}</th>
+                <th>{% trans 'Price' %}</th>
+                <th>{% trans 'Amount per item' %}</th>
             </tr>
             </thead>
             <tbody style="text-align: center">
@@ -23,7 +24,7 @@
                     <td>
                         <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
                             {% csrf_token %}
-                            <input type="submit" value="Remove">
+                            <input type="submit" value="{% trans 'Remove' %}">
                         </form>
                     </td>
                     <td class="num">${{ item.product_id__price }}</td>
@@ -32,19 +33,19 @@
             {% endfor %}
             <tr class="total" style="border-top: 1px solid black">
                 <td colspan="3"></td>
-                <td><b>Total</b></td>
+                <td><b>{% trans 'Total' %}</b></td>
                 <td class="num">${{ total_amount }}</td>
             </tr>
             </tbody>
         </table>
-        <h3>In order to make an order fill this fields</h3>
+        <h3>{% trans 'In order to make an order fill this fields' %}</h3>
         <form method="post">
             {% csrf_token %}
             {{ form.as_p }}
-            <input type="submit" value="Order">
+            <input type="submit" value="{% trans 'Create order' %}">
             {% if messages %}
                 {% for message in messages %}
-                    <span class="error">{{ message }}</span>
+                    <span class="error">{% trans message %}</span>
                 {% endfor %}
             {% endif %}
         </form>

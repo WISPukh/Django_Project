@@ -1,5 +1,6 @@
-{% extends 'main/base.html' %}
+{% extends 'shop/base.html' %}
 {% block title %}{% endblock %}
+{% load i18n %}
 {% load profile_verbose_names %}
 {% block content %}
     {% csrf_token %}
@@ -9,9 +10,9 @@
                 <p>{{ field }}: {{ value }}</p>
             {% endfor %}
             <a href="{% url 'change_profile' user.id %}">
-                <button>Изменить Профиль</button>
+                <button>{% trans 'Change profile' %}</button>
             </a>
-            <a href="{% url 'orders' %}">Ваши Заказы</a>
+            <a href="{% url 'orders' %}">{% trans 'Your orders' %}</a>
         </div>
     </div>
 {% endblock %}

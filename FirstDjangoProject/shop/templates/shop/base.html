@@ -1,0 +1,41 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="icon" href="{% static 'img/favicon-32x32.png' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+<div id="root">
+    {% include 'shop/included/header.html' %}
+
+    {% block content %}{% endblock %}
+
+    <div id="filler"></div>
+    <div id="footer">
+        <div>
+            <span>{% trans 'Products' %}</span>
+            <p><a href="{% url 'products_by_category' 'Mixers' %}">{% trans 'Mixers' %}</a></p>
+            <p><a href="{% url 'products_by_category' 'Blenders' %}">{% trans 'Blenders' %}</a></p>
+            <p><a href="{% url 'products_by_category' 'Teapots' %}">{% trans 'Teapots' %}</a></p>
+            <p><a href="{% url 'products_by_category' 'Combines' %}">{% trans 'Combines' %}</a></p>
+            <p><a href="{% url 'products_by_category' 'Panels' %}">{% trans 'Panels' %}</a></p>
+            <p><a href="{% url 'products_by_category' 'Fridges' %}">{% trans 'Fridges' %}</a></p>
+        </div>
+        <div>
+            <span>{% trans 'About company' %}</span>
+            <p><a href="">{% trans 'Warranty and service' %}</a></p>
+            <p><a href="">{% trans 'Manufacturers' %}</a></p>
+            <p><a href="">{% trans 'Promo' %}</a></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

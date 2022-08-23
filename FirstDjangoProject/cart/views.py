@@ -5,8 +5,9 @@ from django.db.models import F, Sum
 from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView, DeleteView
 
-from main.models import Order, OrderItem, Product
+from shop.models import Product
 from .forms import CartAddProductForm, MakeOrderForm
+from .models import OrderItem, Order
 from .tasks import order_created
 
 

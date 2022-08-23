@@ -1,25 +1,32 @@
 {% load static %}
+{% load change_language %}
+{% load i18n %}
 <div id="navbar">
     <div><img src="{% static 'img/logo2.png' %}" alt="logo" id="logo"></div>
     <div id="navbar-buttons">
         <a href="{% url 'index' %}">
-            <div>Главная</div>
+            <div>{% trans 'Home' %}</div>
             <img src="{% static 'img/home.png' %}" alt="Home">
         </a>
         <a href="{% url 'about' %}">
-            <div>О компании</div>
+            <div>{% trans 'About company' %}</div>
             <img src="{% static 'img/about.png' %}" alt="about">
         </a>
         <a href="{% url 'catalog' %}">
-            <div>Каталог товаров</div>
+            <div>{% trans 'catalog' %}</div>
             <img src="{% static 'img/catalog.png' %}" alt="catalog">
         </a>
         <a href="{% url 'reviews' %}">
-            <div>Отзывы</div>
+            <div>{% trans 'Reviews' %}</div>
             <img src="{% static 'img/review.png' %}" alt="review">
         </a>
     </div>
     <div class="account-icons">
+        {% get_available_languages as languages %}
+        {% for lang_code, lang_name in languages %}
+            {% get_language_info for lang_code as lang %}
+            <a href="{% change_language request lang_code %}">{{ lang.code }}</a>
+        {% endfor %}
         {% if user.is_authenticated %}
             <a href="{% url 'profile' user.id %}">
                 <i class="fa fa-user account-icons" aria-hidden="true"></i>

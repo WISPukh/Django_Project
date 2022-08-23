@@ -1,9 +1,6 @@
-{% extends 'main/base.html' %}
-
+{% extends 'shop/base.html' %}
 {% load static %}
-
 {% block title %}Отзывы{% endblock %}
-
 {% block content %}
     <h2 class="center">Отзывы покупателей</h2>
     <div id="reviews" class="full-width">
@@ -23,7 +20,7 @@
         </div>
         <div class="review">
             <div class="avatar">
-                <img src=".{% static 'img/avatar.png' %}" alt="avatar">
+                <img src="{% static 'img/avatar.png' %}" alt="avatar">
                 <span>Николай Савченко</span>
             </div>
             <p>Техника на 10 из 10</p>

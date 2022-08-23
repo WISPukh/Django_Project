@@ -1,0 +1,45 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans 'About shop' %}{% endblock %}
+{% block content %}
+    <div id="about">
+        <div>
+            <h1 class="center">{% trans 'About shop and company' %}</h1>
+            <main>
+                <div id="about-center">
+                    <div class="about-items">
+                        <img src="{% static 'img/time.png' %}" alt="time" style="height: 72px; width: 72px;">
+                        <p> {% trans 'Our mixers work for' %} <span>30-40</span> {% trans 'years' %}</p>
+                    </div>
+                    <div class="about-items">
+                        <img src="{% static 'img/tags.png' %}" alt="tags">
+                        <p><span> {% trans 'widest' %}</span> {% trans 'color palette' %}</p>
+                    </div>
+                    <div class="about-items">
+                        <img src="{% static 'img/gears.png' %}" alt="gears">
+                        <p><span> {% trans 'Economic' %}</span> {% trans 'energy-saving engine' %} </p>
+                    </div>
+                </div>
+                <p>{% trans 'company overview' %}</p>
+                <p>{% trans 'catalog overview' %}</p>
+                <p><span>{% trans 'order here' %}</span></p>
+            </main>
+        </div>
+        <form id="feedback_form" method="post" action="">
+            <p class="center">{% trans 'feedback' %}</p>
+            <p class="center">{% trans 'write us' %}</p>
+            <label>
+                <input type="text" name="name" placeholder="{% trans 'Your name' %}" required>
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="{% trans 'Your email' %}" required>
+            </label>
+            <label>
+                <textarea placeholder="{% trans 'Your message' %}" required></textarea>
+            </label>
+            <p>{% trans 'send feedback form' %} <a href="">{% trans 'feedback policy' %}</a></p>
+            <input type="submit" name="submit" class="submit" value="{% trans 'submit' %}">
+        </form>
+    </div>
+{% endblock %}
