@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-23 11:30+0300\n"
+"POT-Creation-Date: 2022-08-23 12:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,6 +182,14 @@ msgstr "Цена за конкретный товар"
 msgid "You haven't made any orders yet"
 msgstr "Вы еще не сделали ни одного заказа"
 
+#: cart/views.py:83
+msgid "You've successfully added product to cart!"
+msgstr "Вы добавили товар в корзину"
+
+#: cart/views.py:156
+msgid "You chose more items than there is in stock or incorrect amount"
+msgstr "Вы выбрали больше продуктов, чем есть на складе или некорректное количество"
+
 #: profiles/models.py:18
 msgid "User's bio"
 msgstr "Личная информация"
@@ -314,39 +322,39 @@ msgstr "Категория"
 msgid "Categories"
 msgstr "Категории"
 
-#: shop/templates/shop/about.html:5
+#: shop/templates/shop/about.html:4
 msgid "About shop"
 msgstr "О магазине"
 
-#: shop/templates/shop/about.html:9
+#: shop/templates/shop/about.html:8
 msgid "About shop and company"
 msgstr "О магазине и компании"
 
-#: shop/templates/shop/about.html:14
+#: shop/templates/shop/about.html:13
 msgid "Our mixers work for"
 msgstr "Наши миксеры работают по"
 
-#: shop/templates/shop/about.html:14
+#: shop/templates/shop/about.html:13
 msgid "years"
 msgstr "лет"
 
-#: shop/templates/shop/about.html:18
+#: shop/templates/shop/about.html:17
 msgid "widest"
 msgstr "Широчайшая"
 
-#: shop/templates/shop/about.html:18
+#: shop/templates/shop/about.html:17
 msgid "color palette"
 msgstr "цветовая палитра"
 
-#: shop/templates/shop/about.html:22
+#: shop/templates/shop/about.html:21
 msgid "Economic"
 msgstr "Экономичный"
 
-#: shop/templates/shop/about.html:22
+#: shop/templates/shop/about.html:21
 msgid "energy-saving engine"
 msgstr "энергосберегающий двигатель"
 
-#: shop/templates/shop/about.html:25
+#: shop/templates/shop/about.html:24
 msgid "company overview"
 msgstr ""
 "Официальный магазин KitchenAid – это фантастический выбор незаменимых "
@@ -354,7 +362,7 @@ msgstr ""
 "каталоге соответствует премиум-сегменту, что подтверждает высокое качество "
 "материалов, надежность сборки и проверенный функционал."
 
-#: shop/templates/shop/about.html:26
+#: shop/templates/shop/about.html:25
 msgid "catalog overview"
 msgstr ""
 "В широком ассортименте моделей представлены кухонные машины, заменяющие "
@@ -364,41 +372,41 @@ msgstr ""
 "вкусовых качеств любимого напитка; Кофемашины и тостеры для легкого, "
 "быстрого и полезного завтрака."
 
-#: shop/templates/shop/about.html:27
+#: shop/templates/shop/about.html:26
 msgid "order here"
 msgstr "Заказывайте бытовую технику в нашем интернет-магазине"
 
-#: shop/templates/shop/about.html:31
+#: shop/templates/shop/about.html:30
 msgid "feedback"
 msgstr "Обратная связь"
 
-#: shop/templates/shop/about.html:32
+#: shop/templates/shop/about.html:31
 msgid "write us"
 msgstr "Если у вас есть вопросы пишите"
 
-#: shop/templates/shop/about.html:34
+#: shop/templates/shop/about.html:33
 msgid "Your name"
 msgstr "Ваше имя"
 
-#: shop/templates/shop/about.html:37
+#: shop/templates/shop/about.html:36
 msgid "Your email"
 msgstr "Ваша почта"
 
-#: shop/templates/shop/about.html:40
+#: shop/templates/shop/about.html:39
 msgid "Your message"
 msgstr "Ваше сообщение"
 
-#: shop/templates/shop/about.html:42
+#: shop/templates/shop/about.html:41
 msgid "send feedback form"
 msgstr "Обратная связь"
 
-#: shop/templates/shop/about.html:42
+#: shop/templates/shop/about.html:41
 msgid "feedback policy"
 msgstr "политикой хранения персональных данных "
 
-#: shop/templates/shop/about.html:43
+#: shop/templates/shop/about.html:42
 #: users/templates/users/change_profile.html:10
-#: users/templates/users/password_reset.html:9
+#: users/templates/users/password_reset.html:8
 #: users/templates/users/password_reset_confirm.html:11
 msgid "submit"
 msgstr "Подтвердить"

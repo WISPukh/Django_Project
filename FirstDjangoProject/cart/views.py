@@ -3,6 +3,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db import transaction
 from django.db.models import F, Sum
 from django.shortcuts import redirect
+from django.utils.translation import gettext_lazy as _
 from django.views.generic import ListView, CreateView, DeleteView
 
 from shop.models import Product
@@ -79,7 +80,7 @@ class AddCartItemView(LoginRequiredMixin, CreateView):
             snapshot_item.quantity = F('quantity') + quantity
         snapshot_item.save()
         order_item.save()
-        messages.success(request, "You've successfully added product to cart!")
+        messages.success(request, _("You've successfully added product to cart!"))
         return redirect('product_detail', product_pk)
 
 
@@ -152,7 +153,7 @@ class MakeOrderView(LoginRequiredMixin, CartDataMixin, CreateView):
         try:
             self.validate_cart_products_amount(cart_products, order_items)
         except OrderAmountExceededError:
-            messages.error(request, 'You chose more items than there is in stock or you chose less than 1 product')
+            messages.error(request, _('You chose more items than there is in stock or incorrect amount'))
             return redirect('make_order')
 
         for item in order_items:

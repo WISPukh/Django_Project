@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-23 11:30+0300\n"
+"POT-Creation-Date: 2022-08-23 12:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,6 +184,14 @@ msgstr ""
 msgid "You haven't made any orders yet"
 msgstr ""
 
+#: cart/views.py:83
+msgid "You've successfully added product to cart!"
+msgstr ""
+
+#: cart/views.py:156
+msgid "You chose more items than there is in stock or incorrect amount"
+msgstr ""
+
 #: profiles/models.py:18
 msgid "User's bio"
 msgstr ""
@@ -316,39 +324,39 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: shop/templates/shop/about.html:5
+#: shop/templates/shop/about.html:4
 msgid "About shop"
 msgstr "About shop"
 
-#: shop/templates/shop/about.html:9
+#: shop/templates/shop/about.html:8
 msgid "About shop and company"
 msgstr "About shop and company"
 
-#: shop/templates/shop/about.html:14
+#: shop/templates/shop/about.html:13
 msgid "Our mixers work for"
 msgstr "Our mixers work for"
 
-#: shop/templates/shop/about.html:14
+#: shop/templates/shop/about.html:13
 msgid "years"
 msgstr "years"
 
-#: shop/templates/shop/about.html:18
+#: shop/templates/shop/about.html:17
 msgid "widest"
 msgstr ""
 
-#: shop/templates/shop/about.html:18
+#: shop/templates/shop/about.html:17
 msgid "color palette"
 msgstr ""
 
-#: shop/templates/shop/about.html:22
+#: shop/templates/shop/about.html:21
 msgid "Economic"
 msgstr ""
 
-#: shop/templates/shop/about.html:22
+#: shop/templates/shop/about.html:21
 msgid "energy-saving engine"
 msgstr ""
 
-#: shop/templates/shop/about.html:25
+#: shop/templates/shop/about.html:24
 msgid "company overview"
 msgstr ""
 "Official KitchenAid Shop - is a fantastic choice of non-replaceable "
@@ -356,7 +364,7 @@ msgstr ""
 "kitchen appliances in catalog match the premium segment, that confirms high  "
 "quality of material, reliability of assembling and trusted functionality"
 
-#: shop/templates/shop/about.html:26
+#: shop/templates/shop/about.html:25
 msgid "catalog overview"
 msgstr ""
 "A wide range of models includes kitchen machines that replace several of the "
@@ -366,41 +374,41 @@ msgstr ""
 "your favorite drink; Coffee machines and toasters for an easy, quick and "
 "healthy breakfast."
 
-#: shop/templates/shop/about.html:27
+#: shop/templates/shop/about.html:26
 msgid "order here"
 msgstr "Order appliances in our internet magazine"
 
-#: shop/templates/shop/about.html:31
+#: shop/templates/shop/about.html:30
 msgid "feedback"
 msgstr "Feedback"
 
-#: shop/templates/shop/about.html:32
+#: shop/templates/shop/about.html:31
 msgid "write us"
 msgstr "If you have questions - write us"
 
-#: shop/templates/shop/about.html:34
+#: shop/templates/shop/about.html:33
 msgid "Your name"
 msgstr ""
 
-#: shop/templates/shop/about.html:37
+#: shop/templates/shop/about.html:36
 msgid "Your email"
 msgstr ""
 
-#: shop/templates/shop/about.html:40
+#: shop/templates/shop/about.html:39
 msgid "Your message"
 msgstr ""
 
-#: shop/templates/shop/about.html:42
+#: shop/templates/shop/about.html:41
 msgid "send feedback form"
 msgstr "By clicking the submit button, you agree to"
 
-#: shop/templates/shop/about.html:42
+#: shop/templates/shop/about.html:41
 msgid "feedback policy"
 msgstr "personal data storage policy"
 
-#: shop/templates/shop/about.html:43
+#: shop/templates/shop/about.html:42
 #: users/templates/users/change_profile.html:10
-#: users/templates/users/password_reset.html:9
+#: users/templates/users/password_reset.html:8
 #: users/templates/users/password_reset_confirm.html:11
 msgid "submit"
 msgstr ""

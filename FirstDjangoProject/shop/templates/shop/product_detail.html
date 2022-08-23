@@ -19,7 +19,7 @@
             {% endif %}
             {% if messages %}
                 {% for message in messages %}
-                    <span class="success">{% trans message %}</span>
+                    <span class="success">{{ message }}</span>
                 {% endfor %}
             {% endif %}
         </div>
