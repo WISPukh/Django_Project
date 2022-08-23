@@ -1,25 +1,26 @@
-{% extends 'main/base.html' %}
-{% block title %}Заказы{% endblock %}
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Your orders' %}{% endblock %}
 {% block content %}
-    <h1 STYLE="margin: auto">HERE ARE YOUR ORDERS AND THEIR CONTENT:</h1>
+    <h1 STYLE="margin: auto">{% trans 'Here are Your orders and their content' %}</h1>
     {% if orders %}
         {% for order in orders %}
-            <h3 style="margin: auto">Заказ номер: {{ forloop.counter }}</h3>
+            <h3 style="margin: auto">{% trans 'Order number' %}: {{ forloop.counter }}</h3>
             <div class="items" style="margin: auto">
                 {% with items=order.items %}
                     {% for item in items %}
-                        <p>Имя товара: {{ item.product_name }}</p>
-                        <p>Цена: {{ item.product_id__price }}</p>
-                        <p>Количество: {{ item.quantity }}</p>
-                        <p>Общая цена за конкретный товар: {{ item.total_cost_per_item }}</p>
+                        <p>{% trans 'Product name' %}: {{ item.product_name }}</p>
+                        <p>{% trans 'Price' %}: {{ item.product_id__price }}</p>
+                        <p>{% trans 'Quantity' %}: {{ item.quantity }}</p>
+                        <p>{% trans 'Price for specific product' %}: {{ item.total_cost_per_item }}</p>
                     {% endfor %}
                 {% endwith %}
-                <p>Город доставки: {{ order.city }}</p>
-                <p>Адрес доставки: {{ order.address }}</p>
-                <p>Общая цена за заказ: {{ order.total_price }}</p>
+                <p>{% trans 'City' %}: {{ order.city }}</p>
+                <p>{% trans 'Address' %}: {{ order.address }}</p>
+                <p>{% trans 'Order price' %}: {{ order.total_price }}</p>
             </div>
         {% endfor %}
     {% else %}
-        <p>fuck</p>
+        <p>{% trans "You haven't made any orders yet" %}</p>
     {% endif %}
 {% endblock %}

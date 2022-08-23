@@ -1,12 +1,13 @@
-{% extends 'main/base.html' %}
-{% block title %}Вход{% endblock %}
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Login page' %}{% endblock %}
 {% block content %}
     <form method="post">
         {% csrf_token %}
         <table>
             {{ form.as_table }}
         </table>
-        <button type="submit" class="btn btn-success">login</button>
+        <button type="submit" class="btn btn-success">{% trans 'Login' %}</button>
     </form>
-    <a href="{% url 'password_reset' %}"><b>Forgot your password?</b></a>
+    <a href="{% url 'password_reset' %}"><b>{% trans 'Forgot password?' %}</b></a>
 {% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}{% trans 'Home' %}{% endblock %}
+{% block content %}
+    <script src="{% static 'js/slider.js' %}"></script>
+    <div id="home">
+        <h1 class="center">{% trans 'Appliances KitchenAid' %}</h1>
+        <div id="carousel"></div>
+        <p class="center">
+            {% trans 'main page intro' %}
+        </p>
+        <div class="carousel">
+            <div class="slide"><img src="{% static 'img/banner3.jpg' %}" alt="banner3"></div>
+            <div class="slide"><img src="{% static 'img/banner2.jpg' %}" alt="banner2"></div>
+            <div class="slide"><img src="{% static 'img/banner4.jpg' %}" alt="banner4"></div>
+            <div class="slide"><img src="{% static 'img/banner1.jpg' %}" alt="banner1"></div>
+            <button id="left-carousel-button" onclick="plusDivs(-1)">&#10094;</button>
+            <button id="right-carousel-button" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+{% endblock %}

@@ -24,7 +24,7 @@ class UserLogInView(auth_views.LoginView):
 
 
 class UserLogOutView(auth_views.LogoutView):
-    template_name = 'main/home.html'
+    template_name = 'shop/home.html'
 
 
 class ProfileView(CheckUserIsOwnerMixin, generic.DetailView):

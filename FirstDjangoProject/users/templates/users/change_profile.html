@@ -1,11 +1,12 @@
-{% extends 'main/base.html' %}
-{% block title %}{% endblock %}
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'change profile' %}{% endblock %}
 {% block content %}
     <form method="post">
         {% csrf_token %}
         <table>
             {{ form.as_table }}
         </table>
-        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="submit" class="btn btn-success">{% trans 'submit' %}</button>
     </form>
 {% endblock %}

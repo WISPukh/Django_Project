@@ -2,7 +2,7 @@ from celery import shared_task
 from django.conf import settings
 from django.core.mail import send_mail
 
-from main.models import Order
+from cart.models import Order
 
 
 @shared_task

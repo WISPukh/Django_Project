@@ -1,19 +1,20 @@
-{% extends 'main/base.html' %}
-{% block title %}{% endblock %}
+{% extends 'shop/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'Cart' %}{% endblock %}
 {% block content %}
     {% if not cart_items %}
-        <h1>You don't have anything in your cart</h1>
-        <p>Go <a href="{% url "catalog" %}" class="button light">here</a> to buy something</p>
+        <h1>{% trans "You don't have anything in your cart" %}</h1>
+        <p><a href="{% url "catalog" %}" class="button light">{% trans "Go here to buy something" %}</a></p>
     {% else %}
-        <h1>Your shopping cart</h1>
+        <h1>{% trans 'Your shopping cart' %}</h1>
         <table class="cart">
             <thead>
             <tr>
-                <th>Product</th>
-                <th>Quantity</th>
-                <th>Remove</th>
-                <th>Unit price</th>
-                <th>Price</th>
+                <th>{% trans 'Product' %}</th>
+                <th>{% trans 'Quantity' %}</th>
+                <th>{% trans 'Remove' %}</th>
+                <th>{% trans 'Price' %}</th>
+                <th>{% trans 'Amount per item' %}</th>
             </tr>
             </thead>
             <tbody style="text-align: center">
@@ -24,7 +25,7 @@
                     <td>
                         <form action="{% url 'cart_remove' item.product_id_id %}" method="post">
                             {% csrf_token %}
-                            <input type="submit" value="Remove">
+                            <input type="submit" value="{% trans 'Remove' %}">
                         </form>
                     </td>
                     <td class="num">${{ item.product_id__price }}</td>
@@ -33,14 +34,14 @@
             {% endfor %}
             <tr class="total" style="border-top: 1px solid black">
                 <td colspan="3"></td>
-                <td><b>Total</b></td>
+                <td><b>{% trans 'Total' %}</b></td>
                 <td class="num">${{ total_amount }}</td>
             </tr>
             </tbody>
         </table>
         <p class="text-right">
-            <a href="{% url "catalog" %}" class="button light">Continue shopping</a>
-            <a href="{% url 'make_order' %}" class="button">Order</a>
+            <a href="{% url "catalog" %}" class="button light">{% trans 'Continue shopping' %}</a>
+            <a href="{% url 'make_order' %}" class="button">{% trans 'Make order' %}</a>
         </p>
     {% endif %}
 {% endblock %}

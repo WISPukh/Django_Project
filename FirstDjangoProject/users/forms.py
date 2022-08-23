@@ -1,4 +1,4 @@
-from django.contrib.auth.forms import *
+from django.contrib.auth.forms import UserCreationForm, UserChangeForm, AuthenticationForm
 
 from users.models import User
 
