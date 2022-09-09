@@ -6,8 +6,12 @@ from cart.models import OrderItem, Order
 
 @admin.register(Order)
 class AdminManageOrder(ModelAdmin):
-    list_display = ('pk', 'quantity', 'total_price', 'city', 'address',)
+    list_display = ('pk', 'quantity', 'total_price', 'status', 'city', 'address', 'show_full_address',)
     ordering = ('pk',)
+
+    @admin.display(description='Full address')
+    def show_full_address(self, obj):
+        return ', '.join([obj.city, obj.address])
 
 
 @admin.register(OrderItem)

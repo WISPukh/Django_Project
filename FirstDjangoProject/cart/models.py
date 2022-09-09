@@ -18,8 +18,8 @@ class OrderItem(models.Model):
     product_id = models.ForeignKey(Product, on_delete=models.NOT_PROVIDED)
     order_id = models.ForeignKey('Order', on_delete=models.CASCADE)
     quantity = models.IntegerField(default=0, verbose_name=_('Quantity'))
-    product_name = models.CharField(default=0, max_length=50, verbose_name=_('Product name'))
-    unit_price = models.IntegerField(default=0, verbose_name=_('Price'))
+    product_name = models.CharField(null=True, max_length=50, verbose_name=_('Product name'))
+    unit_price = models.IntegerField(null=True, verbose_name=_('Price'))
 
     class Meta:
         verbose_name = _('Item in order')

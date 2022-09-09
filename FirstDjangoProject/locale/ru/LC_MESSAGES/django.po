@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-23 12:11+0300\n"
+"POT-Creation-Date: 2022-08-25 15:25+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,13 @@ msgstr "Английский"
 #: FirstDjangoProject/settings.py:98
 msgid "Russian"
 msgstr "Русский"
+
+#: cart/forms.py:10 cart/models.py:20 cart/models.py:33
+#: cart/templates/cart/cart_detail.html:14
+#: cart/templates/cart/make_order.html:13
+#: cart/templates/cart/order_finished.html:14
+msgid "Quantity"
+msgstr "Количество"
 
 #: cart/models.py:9 cart/templates/cart/cart_detail.html:3
 msgid "Cart"
@@ -51,12 +58,6 @@ msgstr "Доставлен"
 #: cart/models.py:17 profiles/models.py:12
 msgid "User"
 msgstr "Пользователь"
-
-#: cart/models.py:20 cart/models.py:33 cart/templates/cart/cart_detail.html:14
-#: cart/templates/cart/make_order.html:13
-#: cart/templates/cart/order_finished.html:14
-msgid "Quantity"
-msgstr "Количество"
 
 #: cart/models.py:21 cart/templates/cart/order_finished.html:12
 #: shop/models.py:10
@@ -188,7 +189,8 @@ msgstr "Вы добавили товар в корзину"
 
 #: cart/views.py:156
 msgid "You chose more items than there is in stock or incorrect amount"
-msgstr "Вы выбрали больше продуктов, чем есть на складе или некорректное количество"
+msgstr ""
+"Вы выбрали больше продуктов, чем есть на складе или некорректное количество"
 
 #: profiles/models.py:18
 msgid "User's bio"
@@ -217,6 +219,10 @@ msgstr "Профиль"
 #: profiles/models.py:46
 msgid "Profiles"
 msgstr "Профили"
+
+#: shop/__init__.py:3
+msgid "shop"
+msgstr "магазин"
 
 #: shop/models.py:11 shop/templates/shop/products_by_category.html:15
 msgid "Description"
