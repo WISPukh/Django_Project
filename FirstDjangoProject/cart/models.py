@@ -15,7 +15,7 @@ class OrderStatus(models.TextChoices):
 
 class OrderItem(models.Model):
     customer_id = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name=_('User'))
-    product_id = models.ForeignKey(Product, on_delete=models.NOT_PROVIDED)
+    product_id = models.ForeignKey(Product, on_delete=models.NOT_PROVIDED, verbose_name=_('Product name'))
     order_id = models.ForeignKey('Order', on_delete=models.CASCADE)
     quantity = models.IntegerField(default=0, verbose_name=_('Quantity'))
     product_name = models.CharField(null=True, max_length=50, verbose_name=_('Product name'))
@@ -24,6 +24,9 @@ class OrderItem(models.Model):
     class Meta:
         verbose_name = _('Item in order')
         verbose_name_plural = _('Items in order')
+
+    def __str__(self):
+        return f'{_("Order")} №{str(self.order_id.pk)}'
 
 
 class Order(models.Model):

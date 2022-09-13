@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-25 15:25+0300\n"
+"POT-Creation-Date: 2022-09-12 11:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,16 +28,24 @@ msgstr "Английский"
 msgid "Russian"
 msgstr "Русский"
 
-#: cart/forms.py:10 cart/models.py:20 cart/models.py:33
+#: cart/admin.py:31
+msgid "Full address"
+msgstr "Полный адрес"
+
+#: cart/admin.py:35
+msgid "Mark delivered"
+msgstr "Отметить доставленным"
+
+#: cart/apps.py:8 cart/models.py:9 cart/templates/cart/cart_detail.html:3
+msgid "Cart"
+msgstr "Корзина"
+
+#: cart/forms.py:10 cart/models.py:20 cart/models.py:36
 #: cart/templates/cart/cart_detail.html:14
 #: cart/templates/cart/make_order.html:13
 #: cart/templates/cart/order_finished.html:14
 msgid "Quantity"
 msgstr "Количество"
-
-#: cart/models.py:9 cart/templates/cart/cart_detail.html:3
-msgid "Cart"
-msgstr "Корзина"
 
 #: cart/models.py:10
 msgid "Created"
@@ -59,8 +67,8 @@ msgstr "Доставлен"
 msgid "User"
 msgstr "Пользователь"
 
-#: cart/models.py:21 cart/templates/cart/order_finished.html:12
-#: shop/models.py:10
+#: cart/models.py:18 cart/models.py:21
+#: cart/templates/cart/order_finished.html:12 shop/models.py:10
 msgid "Product name"
 msgstr "Название продукта"
 
@@ -79,27 +87,27 @@ msgstr "Товар в заказе"
 msgid "Items in order"
 msgstr "Товары в заказе"
 
-#: cart/models.py:30
+#: cart/models.py:33
 msgid "Customer"
 msgstr "Покупатель"
 
-#: cart/models.py:31 cart/templates/cart/order_finished.html:20
+#: cart/models.py:34 cart/templates/cart/order_finished.html:20
 msgid "Order price"
 msgstr "Цена заказа"
 
-#: cart/models.py:34 cart/templates/cart/order_finished.html:18
+#: cart/models.py:37 cart/templates/cart/order_finished.html:18
 msgid "City"
 msgstr "Город"
 
-#: cart/models.py:35 cart/templates/cart/order_finished.html:19
+#: cart/models.py:38 cart/templates/cart/order_finished.html:19
 msgid "Address"
 msgstr "Адрес проживания"
 
-#: cart/models.py:39
+#: cart/models.py:42
 msgid "Order"
 msgstr "Заказ"
 
-#: cart/models.py:40
+#: cart/models.py:43
 msgid "Orders"
 msgstr "Заказы"
 
@@ -192,6 +200,10 @@ msgid "You chose more items than there is in stock or incorrect amount"
 msgstr ""
 "Вы выбрали больше продуктов, чем есть на складе или некорректное количество"
 
+#: profiles/apps.py:8 profiles/models.py:46
+msgid "Profiles"
+msgstr "Профили"
+
 #: profiles/models.py:18
 msgid "User's bio"
 msgstr "Личная информация"
@@ -216,11 +228,7 @@ msgstr "Область"
 msgid "Profile"
 msgstr "Профиль"
 
-#: profiles/models.py:46
-msgid "Profiles"
-msgstr "Профили"
-
-#: shop/__init__.py:3
+#: shop/apps.py:8
 msgid "shop"
 msgstr "магазин"
 
@@ -470,6 +478,10 @@ msgstr "Продукты определенной категории"
 #: shop/templates/shop/products_by_category.html:22
 msgid "There are no products of this category in stock"
 msgstr "В запасе нет продуктов по этой категории"
+
+#: users/apps.py:8
+msgid "users"
+msgstr ""
 
 #: users/models.py:10
 msgid "email address"
